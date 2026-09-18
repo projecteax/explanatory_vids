@@ -23,6 +23,10 @@ generated/
 explainer/public/audio/*.wav
 explainer/public/audio/*.mp3
 
+# Large vendor archives (keep unzipped tools/rhubarb/)
+tools/Rhubarb-Lip-Sync-*.zip
+tools/*.zip
+
 # OS / editor
 .DS_Store
 Thumbs.db
