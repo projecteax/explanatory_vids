@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.local
+tools/elevenlabs_voices.json
+
+# Python
+__pycache__/
+*.pyc
+.Python
+.venv/
+venv/
+
+# Node / Remotion
+node_modules/
+explainer/node_modules/
+explainer/out/
+explainer/.remotion/
+*.log
+npm-debug.log*
+
+# Generated media (rebuild locally)
+generated/
+explainer/public/audio/*.wav
+explainer/public/audio/*.mp3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

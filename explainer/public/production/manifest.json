@@ -1,0 +1,227 @@
+{
+  "font": "production/MikadoBold.otf",
+  "labs": {
+    "wide": "production/lab_wide.png",
+    "monitor": "production/lab_monitor.png"
+  },
+  "bravo": {
+    "views": {
+      "front": {
+        "png": "production/bravo-view-front.png",
+        "svg": "production/bravo-view-front.svg"
+      },
+      "three_quarter": {
+        "png": "production/bravo-view-three_quarter.png",
+        "svg": "production/bravo-view-three_quarter.svg"
+      },
+      "profile": {
+        "png": "production/bravo-view-profile.png",
+        "svg": "production/bravo-view-profile.svg"
+      },
+      "rear_three_quarter": {
+        "png": "production/bravo-view-rear_three_quarter.png",
+        "svg": "production/bravo-view-rear_three_quarter.svg"
+      },
+      "back": {
+        "png": "production/bravo-view-back.png",
+        "svg": "production/bravo-view-back.svg"
+      }
+    },
+    "poses": {
+      "point": {
+        "png": "production/bravo-pose-point.png",
+        "svg": "production/bravo-pose-point.svg"
+      },
+      "present": {
+        "png": "production/bravo-pose-present.png",
+        "svg": "production/bravo-pose-present.svg"
+      },
+      "listen": {
+        "png": "production/bravo-pose-listen.png",
+        "svg": "production/bravo-pose-listen.svg"
+      },
+      "open_palm": {
+        "png": "production/bravo-pose-open_palm.png",
+        "svg": "production/bravo-pose-open_palm.svg"
+      },
+      "chuckle": {
+        "png": "production/bravo-pose-chuckle.png",
+        "svg": "production/bravo-pose-chuckle.svg"
+      },
+      "hold_moon": {
+        "png": "production/bravo-pose-hold_moon.png",
+        "svg": "production/bravo-pose-hold_moon.svg"
+      },
+      "think_profile": {
+        "png": "production/bravo-pose-think_profile.png",
+        "svg": "production/bravo-pose-think_profile.svg"
+      }
+    },
+    "faces": {
+      "neutral": {
+        "png": "production/bravo-face-neutral.png",
+        "svg": "production/bravo-face-neutral.svg"
+      },
+      "worried": {
+        "png": "production/bravo-face-worried.png",
+        "svg": "production/bravo-face-worried.svg"
+      },
+      "amused": {
+        "png": "production/bravo-face-amused.png",
+        "svg": "production/bravo-face-amused.svg"
+      },
+      "curious": {
+        "png": "production/bravo-face-curious.png",
+        "svg": "production/bravo-face-curious.svg"
+      },
+      "surprised": {
+        "png": "production/bravo-face-surprised.png",
+        "svg": "production/bravo-face-surprised.svg"
+      },
+      "teacher": {
+        "png": "production/bravo-face-teacher.png",
+        "svg": "production/bravo-face-teacher.svg"
+      }
+    },
+    "visemes": {
+      "X": {
+        "png": "production/bravo-viseme-X.png",
+        "svg": "production/bravo-viseme-X.svg"
+      },
+      "F": {
+        "png": "production/bravo-viseme-F.png",
+        "svg": "production/bravo-viseme-F.svg"
+      },
+      "L": {
+        "png": "production/bravo-viseme-L.png",
+        "svg": "production/bravo-viseme-L.svg"
+      },
+      "A": {
+        "png": "production/bravo-viseme-A.png",
+        "svg": "production/bravo-viseme-A.svg"
+      },
+      "E": {
+        "png": "production/bravo-viseme-E.png",
+        "svg": "production/bravo-viseme-E.svg"
+      },
+      "O": {
+        "png": "production/bravo-viseme-O.png",
+        "svg": "production/bravo-viseme-O.svg"
+      },
+      "U": {
+        "png": "production/bravo-viseme-U.png",
+        "svg": "production/bravo-viseme-U.svg"
+      },
+      "G": {
+        "png": "production/bravo-viseme-G.png",
+        "svg": "production/bravo-viseme-G.svg"
+      }
+    }
+  },
+  "pipi": {
+    "views": {
+      "front": {
+        "png": "production/pipi-view-front.png",
+        "svg": "production/pipi-view-front.svg"
+      },
+      "three_quarter": {
+        "png": "production/pipi-view-three_quarter.png",
+        "svg": "production/pipi-view-three_quarter.svg"
+      },
+      "profile": {
+        "png": "production/pipi-view-profile.png",
+        "svg": "production/pipi-view-profile.svg"
+      },
+      "rear_three_quarter": {
+        "png": "production/pipi-view-rear_three_quarter.png",
+        "svg": "production/pipi-view-rear_three_quarter.svg"
+      },
+      "back": {
+        "png": "production/pipi-view-back.png",
+        "svg": "production/pipi-view-back.svg"
+      }
+    },
+    "poses": {
+      "alarm": {
+        "png": "production/pipi-pose-alarm.png",
+        "svg": "production/pipi-pose-alarm.svg"
+      },
+      "suspicious": {
+        "png": "production/pipi-pose-suspicious.png",
+        "svg": "production/pipi-pose-suspicious.svg"
+      },
+      "listen": {
+        "png": "production/pipi-pose-listen.png",
+        "svg": "production/pipi-pose-listen.svg"
+      },
+      "profile": {
+        "png": "production/pipi-pose-profile.png",
+        "svg": "production/pipi-pose-profile.svg"
+      },
+      "laugh": {
+        "png": "production/pipi-pose-laugh.png",
+        "svg": "production/pipi-pose-laugh.svg"
+      },
+      "point": {
+        "png": "production/pipi-pose-point.png",
+        "svg": "production/pipi-pose-point.svg"
+      }
+    },
+    "faces": {
+      "neutral": {
+        "png": "production/pipi-face-neutral.png",
+        "svg": "production/pipi-face-neutral.svg"
+      },
+      "alarm": {
+        "png": "production/pipi-face-alarm.png",
+        "svg": "production/pipi-face-alarm.svg"
+      },
+      "suspicious": {
+        "png": "production/pipi-face-suspicious.png",
+        "svg": "production/pipi-face-suspicious.svg"
+      },
+      "curious": {
+        "png": "production/pipi-face-curious.png",
+        "svg": "production/pipi-face-curious.svg"
+      },
+      "laugh": {
+        "png": "production/pipi-face-laugh.png",
+        "svg": "production/pipi-face-laugh.svg"
+      },
+      "focused": {
+        "png": "production/pipi-face-focused.png",
+        "svg": "production/pipi-face-focused.svg"
+      }
+    },
+    "visemes": {
+      "X": {
+        "png": "production/pipi-viseme-X.png",
+        "svg": "production/pipi-viseme-X.svg"
+      },
+      "A": {
+        "png": "production/pipi-viseme-A.png",
+        "svg": "production/pipi-viseme-A.svg"
+      },
+      "E": {
+        "png": "production/pipi-viseme-E.png",
+        "svg": "production/pipi-viseme-E.svg"
+      },
+      "O": {
+        "png": "production/pipi-viseme-O.png",
+        "svg": "production/pipi-viseme-O.svg"
+      },
+      "U": {
+        "png": "production/pipi-viseme-U.png",
+        "svg": "production/pipi-viseme-U.svg"
+      },
+      "F": {
+        "png": "production/pipi-viseme-F.png",
+        "svg": "production/pipi-viseme-F.svg"
+      },
+      "G": {
+        "png": "production/pipi-viseme-G.png",
+        "svg": "production/pipi-viseme-G.svg"
+      }
+    }
+  }
+}

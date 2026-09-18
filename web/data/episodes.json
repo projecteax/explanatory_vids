@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ghost",
+    "title": "The Ghost of Glow-A-Lot",
+    "code": "EP05",
+    "file": "data/episode.json",
+    "kind": "adventure"
+  },
+  {
+    "id": "moon",
+    "title": "Why Does the Moon Change Shape?",
+    "code": "EX01",
+    "file": "data/moon_episode.json",
+    "kind": "explainer"
+  }
+]

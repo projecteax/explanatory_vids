@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Mikado";
+  src: url("../public/production/MikadoBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700 900;
+  font-display: block;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Mikado", "Trebuchet MS", sans-serif;
+}

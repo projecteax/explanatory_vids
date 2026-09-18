@@ -1,0 +1,898 @@
+{
+  "series": "The Widgeteers Explains",
+  "title": "Why Does the Moon Change Shape?",
+  "code": "EX01",
+  "format": "lab_explainer",
+  "runtime": "2:40",
+  "runtime_seconds": 160,
+  "logline": "Pipi thinks someone is eating the Moon. Bravo proves it is still a ball — we just see different slices of sunlight as it orbits Earth.",
+  "moral": "The Moon does not shrink. Its shape changes because of sunlight and our point of view.",
+  "tone": "Gentle STEM explainer for ages 6–7. Lab host + 2D screen graphics. Only Bravo and Pipi.",
+  "age": "6–7",
+  "cast": [
+    "Bravo (civilian)",
+    "Pipi"
+  ],
+  "style_lock_3d": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed.",
+  "style_lock_2d": "Clean 2D children's educational animation graphic for a TV screen insert, bold flat shapes, soft cel shading, limited palette of deep navy, cream yellow, soft orange and teal. Cute, simple, readable for ages 6–7. NO photoreal, NO 3D, NO horror, NO tiny unreadable text walls.",
+  "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror",
+  "negative_2d": "photoreal, 3D render, horror moon face, scary crater monsters, tiny unreadable paragraphs, watermark, logo, collage, adult textbook diagram",
+  "characters": [
+    {
+      "id": "bravo",
+      "name": "Bravo",
+      "role": "Inventor-host",
+      "blurb": "Explains the Moon with gadgets, a flashlight, and a ball. Patient, curious, never condescending.",
+      "images": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png"
+      ]
+    },
+    {
+      "id": "pipi",
+      "name": "Pipi",
+      "role": "Curious sidekick",
+      "blurb": "Asks the kid questions out loud. Beeps, points, learns with the audience.",
+      "images": [
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "lab",
+      "name": "Secret lab",
+      "images": [
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "note": "Entire episode. Big wall screen carries the 2D lesson graphics."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "act": "I",
+      "tc": "0:00–0:25",
+      "heading": "SCENE 01  INT. BRAVO'S SECRET LAB - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "The secret lab glows teal. On the big curved WALL SCREEN: a cute flat drawing of a full Moon. BRAVO (civilian) sits at the work table with a flashlight and a white foam ball. PIPI hovers beside him, staring at the screen."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "paren",
+          "text": "(worried beep)"
+        },
+        {
+          "type": "dial",
+          "text": "Alert. The Moon is broken. Last week: big circle. Tonight: tiny smile. Someone is eating it."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "paren",
+          "text": "(grinning, gentle)"
+        },
+        {
+          "type": "dial",
+          "text": "Nobody is eating the Moon, Pipi. But it DOES look like it changes shape. Want to know why?"
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "dial",
+          "text": "Yes. Science snack. Go."
+        },
+        {
+          "type": "action",
+          "text": "Bravo taps the console. Title card blooms on the wall screen in soft 2D: WHY DOES THE MOON CHANGE SHAPE?"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "act": "I",
+      "tc": "0:25–0:55",
+      "heading": "SCENE 02  INT. LAB / DEMO TABLE - CONTINUOUS",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "Bravo holds up the white ball. Pipi clicks on a tiny desk lamp / flashlight. On the WALL SCREEN, a matching 2D cartoon ball and sun-lamp appear."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "First big secret: the Moon is a ball. A giant rocky ball floating in space. It does not shrink. It does not melt."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "paren",
+          "text": "(poking the foam ball)"
+        },
+        {
+          "type": "dial",
+          "text": "Ball confirmed. Squishy version is smaller."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "Second secret: the Moon does not make its own light. The Sun lights it up. Like this."
+        },
+        {
+          "type": "action",
+          "text": "He shines the flashlight on one side of the ball. Half bright, half dark. The screen mirrors it in clean 2D: yellow sun rays hitting a grey moon-ball."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "dial",
+          "text": "Ooooh. One cheek sunny. One cheek sleepy."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "act": "II",
+      "tc": "0:55–1:35",
+      "heading": "SCENE 03  INT. LAB / WALL SCREEN - CONTINUOUS",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "Bravo walks the ball in a slow circle around a little stand labeled EARTH (or Pipi herself as Earth). Camera favors the WALL SCREEN as the lesson takes over in 2D."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "We live on Earth. The Moon travels around us. As it moves, we see different sunny pieces of that ball."
+        },
+        {
+          "type": "action",
+          "text": "ON SCREEN (2D): Earth in the middle. Sun fixed on the left. Moon slides around Earth. A little eye-icon shows what Earth kids see each time."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "When the sunny side faces us — we see a FULL MOON. A bright circle."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "dial",
+          "text": "Big cookie."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "When we mostly see the dark side — almost no cookie. That is a NEW MOON. The Moon is still there. It is just hiding in the Sun's shadow from our view."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "paren",
+          "text": "(relieved)"
+        },
+        {
+          "type": "dial",
+          "text": "Not eaten. Just sneaky."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "act": "II",
+      "tc": "1:35–2:20",
+      "heading": "SCENE 04  INT. LAB / PHASE PARADE ON SCREEN - CONTINUOUS",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "The wall screen becomes a cheerful PHASE PARADE — five big moon shapes slide left to right. Bravo points with a laser pointer; Pipi zooms along the row."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "In between, we get shapes with funny names. Like a banana. That is a CRESCENT."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "dial",
+          "text": "Moon banana. Do not eat."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "Half lit is a HALF MOON. And when it is almost full, we call it a GIBBOUS — which just means 'bumpy almost-circle.'"
+        },
+        {
+          "type": "action",
+          "text": "ON SCREEN (2D): New → Crescent → Half → Gibbous → Full, then reverse. A tiny calendar note: about one month for a full trip."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "The whole show takes about one month. Same Moon. Same ball. Different sunny slice for our eyes."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "dial",
+          "text": "Shape change equals view change. Download complete."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "act": "III",
+      "tc": "2:20–3:00",
+      "heading": "SCENE 05  INT. LAB - CONTINUOUS",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "Bravo kills the flashlight. The foam ball sits in soft lab light — always a full sphere. The screen shows a quiet night sky with a crescent and a tiny label: STILL A BALL."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "So next time you look up and the Moon looks skinny, remember: it did not shrink. You are just seeing a different piece of sunlight."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "paren",
+          "text": "(to camera / kids, soft)"
+        },
+        {
+          "type": "dial",
+          "text": "Tonight homework: find the Moon. Ask: banana, half, or cookie?"
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "Great question, Pipi. And a great sky. Widgeteers Explains — mystery solved."
+        },
+        {
+          "type": "action",
+          "text": "Pipi draws a tiny teal heart on the screen over the Moon. Bravo clicks off the title. Soft fade."
+        },
+        {
+          "type": "action",
+          "text": "THE END"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "M01",
+      "scene": "01",
+      "tc": "0:00",
+      "tc_in": "00:00:00",
+      "tc_out": "00:00:05",
+      "dur": 5,
+      "size": "WS",
+      "title": "Lab open + Moon on screen",
+      "kind": "3d",
+      "camera": "Wide from the lab stairs / doorway. Bravo at the table in three-quarter, Pipi hovering, wall screen showing a flat Full Moon graphic. Not a poster lineup.",
+      "action": "Secret lab at night, Bravo civilian and Pipi looking toward the big screen, Full Moon 2D art glowing on the monitor.",
+      "dialogue": "PIPI: \"The Moon is broken.\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Wide from the lab stairs / doorway. Bravo at the table in three-quarter, Pipi hovering, wall screen showing a flat Full Moon graphic. Not a poster lineup. WHAT'S ON SCREEN: Secret lab at night, Bravo civilian and Pipi looking toward the big screen, Full Moon 2D art glowing on the monitor. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor OR large wall screen, glass-top work table, two cylindrical suit tubes, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M02",
+      "scene": "01",
+      "tc": "0:05",
+      "tc_in": "00:00:05",
+      "tc_out": "00:00:11",
+      "dur": 6,
+      "size": "OTS",
+      "title": "Pipi worried about the Moon",
+      "kind": "3d",
+      "camera": "Over Bravo's shoulder toward Pipi and the screen. Pipi in profile pointing at the Moon graphic. Screen soft in focus.",
+      "action": "Pipi pointing at wall-screen Moon; Bravo listening from foreground as soft focus shoulder.",
+      "dialogue": "PIPI: \"Last week: big circle. Tonight: tiny smile.\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Over Bravo's shoulder toward Pipi and the screen. Pipi in profile pointing at the Moon graphic. Screen soft in focus. WHAT'S ON SCREEN: Pipi pointing at wall-screen Moon; Bravo listening from foreground as soft focus shoulder. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor OR large wall screen, glass-top work table, two cylindrical suit tubes, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M03",
+      "scene": "01",
+      "tc": "0:11",
+      "tc_in": "00:00:11",
+      "tc_out": "00:00:18",
+      "dur": 7,
+      "size": "MCU",
+      "title": "Bravo invites the lesson",
+      "kind": "3d",
+      "camera": "Three-quarter close of Bravo civilian at the console, looking at Pipi / screen, not at lens. Warm inventor energy.",
+      "action": "Bravo smiling gently, glasses catching teal light, hand near console.",
+      "dialogue": "BRAVO: \"Nobody is eating the Moon. Want to know why it changes shape?\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Three-quarter close of Bravo civilian at the console, looking at Pipi / screen, not at lens. Warm inventor energy. WHAT'S ON SCREEN: Bravo smiling gently, glasses catching teal light, hand near console. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor OR large wall screen, glass-top work table, two cylindrical suit tubes, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M04",
+      "scene": "01",
+      "tc": "0:18",
+      "tc_in": "00:00:18",
+      "tc_out": "00:00:25",
+      "dur": 7,
+      "size": "GFX",
+      "title": "Title card on screen",
+      "kind": "2d",
+      "camera": "Full-bleed graphic as if photographed off the lab monitor (subtle scanline optional).",
+      "action": "Big soft title WHY DOES THE MOON CHANGE SHAPE? over a navy night sky, cute cream Full Moon, tiny teal drone silhouette of Pipi in the corner. Simple, bold, kid-friendly.",
+      "dialogue": "(title)",
+      "screen_2d": "Title card",
+      "lock_ids": [],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Clean 2D children's educational animation graphic for a TV screen insert, bold flat shapes, soft cel shading, limited palette of deep navy, cream yellow, soft orange and teal. Cute, simple, readable for ages 6–7. NO photoreal, NO 3D, NO horror, NO tiny unreadable text walls. TITLE BEAT: Title card on screen. VISUAL: Big soft title WHY DOES THE MOON CHANGE SHAPE? over a navy night sky, cute cream Full Moon, tiny teal drone silhouette of Pipi in the corner. Simple, bold, kid-friendly.. Designed to look like a bright cartoon playing ON a curved lab monitor / wall screen.",
+      "negative": "photoreal, 3D render, horror moon face, scary crater monsters, tiny unreadable paragraphs, watermark, logo, collage, adult textbook diagram"
+    },
+    {
+      "id": "M05",
+      "scene": "02",
+      "tc": "0:25",
+      "tc_in": "00:00:25",
+      "tc_out": "00:00:33",
+      "dur": 8,
+      "size": "MS",
+      "title": "Ball = Moon",
+      "kind": "3d",
+      "camera": "Side angle at the work table. Bravo holds a white foam ball; Pipi in profile inspects it. Screen behind shows matching 2D ball.",
+      "action": "Bravo presenting foam ball as Moon model, Pipi poking it, lab practicals.",
+      "dialogue": "BRAVO: \"The Moon is a ball. It does not shrink.\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Side angle at the work table. Bravo holds a white foam ball; Pipi in profile inspects it. Screen behind shows matching 2D ball. WHAT'S ON SCREEN: Bravo presenting foam ball as Moon model, Pipi poking it, lab practicals. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor OR large wall screen, glass-top work table, two cylindrical suit tubes, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M06",
+      "scene": "02",
+      "tc": "0:33",
+      "tc_in": "00:00:33",
+      "tc_out": "00:00:41",
+      "dur": 8,
+      "size": "CU",
+      "title": "Flashlight lights one cheek",
+      "kind": "3d",
+      "camera": "Close insert: flashlight beam hitting one side of the foam ball; Bravo's fingers and Pipi's tiny arm in soft edge. Half bright / half dark.",
+      "action": "Foam ball half-lit by flashlight, cinematic insert, lab bokeh.",
+      "dialogue": "BRAVO: \"The Moon does not make its own light. The Sun lights it up.\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "pipi"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "pipi"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Close insert: flashlight beam hitting one side of the foam ball; Bravo's fingers and Pipi's tiny arm in soft edge. Half bright / half dark. WHAT'S ON SCREEN: Foam ball half-lit by flashlight, cinematic insert, lab bokeh. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M07",
+      "scene": "02",
+      "tc": "0:41",
+      "tc_in": "00:00:41",
+      "tc_out": "00:00:48",
+      "dur": 7,
+      "size": "GFX",
+      "title": "2D sun rays on moon-ball",
+      "kind": "2d",
+      "camera": "Clean educational graphic filling the frame.",
+      "action": "Flat 2D: bright yellow Sun on the left casting simple rays onto a grey cratered moon-ball; left half lit cream-yellow, right half soft navy shadow. Label dots optional: SUN / MOON. No paragraphs.",
+      "dialogue": "PIPI: \"One cheek sunny. One cheek sleepy.\"",
+      "screen_2d": "Sun lights Moon",
+      "lock_ids": [],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Clean 2D children's educational animation graphic for a TV screen insert, bold flat shapes, soft cel shading, limited palette of deep navy, cream yellow, soft orange and teal. Cute, simple, readable for ages 6–7. NO photoreal, NO 3D, NO horror, NO tiny unreadable text walls. TITLE BEAT: 2D sun rays on moon-ball. VISUAL: Flat 2D: bright yellow Sun on the left casting simple rays onto a grey cratered moon-ball; left half lit cream-yellow, right half soft navy shadow. Label dots optional: SUN / MOON. No paragraphs.. Designed to look like a bright cartoon playing ON a curved lab monitor / wall screen.",
+      "negative": "photoreal, 3D render, horror moon face, scary crater monsters, tiny unreadable paragraphs, watermark, logo, collage, adult textbook diagram"
+    },
+    {
+      "id": "M08",
+      "scene": "03",
+      "tc": "0:48",
+      "tc_in": "00:00:48",
+      "tc_out": "00:00:56",
+      "dur": 8,
+      "size": "OTS",
+      "title": "Bravo starts the orbit demo",
+      "kind": "3d",
+      "camera": "Over Pipi's tiny body toward Bravo walking the foam ball around a stand / Pipi-as-Earth. Screen beginning orbit animation.",
+      "action": "Bravo moving Moon-ball in a circle; Pipi watching; wall screen echoing the motion in 2D.",
+      "dialogue": "BRAVO: \"The Moon travels around Earth. We see different sunny pieces.\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Over Pipi's tiny body toward Bravo walking the foam ball around a stand / Pipi-as-Earth. Screen beginning orbit animation. WHAT'S ON SCREEN: Bravo moving Moon-ball in a circle; Pipi watching; wall screen echoing the motion in 2D. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor OR large wall screen, glass-top work table, two cylindrical suit tubes, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M09",
+      "scene": "03",
+      "tc": "0:56",
+      "tc_in": "00:00:56",
+      "tc_out": "00:01:08",
+      "dur": 12,
+      "size": "GFX",
+      "title": "2D orbit + eye view",
+      "kind": "2d",
+      "camera": "Full educational board.",
+      "action": "Flat 2D diagram: Earth center, fixed Sun left, Moon at several positions on a dashed orbit. At each Moon position a small eye-icon shows the shape Earth sees (new, crescent, half, gibbous, full). Soft icons, big shapes, almost no text.",
+      "dialogue": "BRAVO: \"When the sunny side faces us — FULL MOON.\"",
+      "screen_2d": "Orbit diagram",
+      "lock_ids": [],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Clean 2D children's educational animation graphic for a TV screen insert, bold flat shapes, soft cel shading, limited palette of deep navy, cream yellow, soft orange and teal. Cute, simple, readable for ages 6–7. NO photoreal, NO 3D, NO horror, NO tiny unreadable text walls. TITLE BEAT: 2D orbit + eye view. VISUAL: Flat 2D diagram: Earth center, fixed Sun left, Moon at several positions on a dashed orbit. At each Moon position a small eye-icon shows the shape Earth sees (new, crescent, half, gibbous, full). Soft icons, big shapes, almost no text.. Designed to look like a bright cartoon playing ON a curved lab monitor / wall screen.",
+      "negative": "photoreal, 3D render, horror moon face, scary crater monsters, tiny unreadable paragraphs, watermark, logo, collage, adult textbook diagram"
+    },
+    {
+      "id": "M10",
+      "scene": "03",
+      "tc": "1:08",
+      "tc_in": "00:01:08",
+      "tc_out": "00:01:16",
+      "dur": 8,
+      "size": "MCU",
+      "title": "Full cookie / New sneaky",
+      "kind": "3d",
+      "camera": "Two-beat feel in one frame or slight pan: Bravo pointing at screen Full Moon, Pipi relieved. Three-quarter, looking at screen.",
+      "action": "Bravo and Pipi reacting to Full vs New Moon on the monitor.",
+      "dialogue": "PIPI: \"Not eaten. Just sneaky.\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Two-beat feel in one frame or slight pan: Bravo pointing at screen Full Moon, Pipi relieved. Three-quarter, looking at screen. WHAT'S ON SCREEN: Bravo and Pipi reacting to Full vs New Moon on the monitor. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor OR large wall screen, glass-top work table, two cylindrical suit tubes, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M11",
+      "scene": "03",
+      "tc": "1:16",
+      "tc_in": "00:01:16",
+      "tc_out": "00:01:26",
+      "dur": 10,
+      "size": "GFX",
+      "title": "Full vs New compare",
+      "kind": "2d",
+      "camera": "Split graphic, still one board not collage chaos.",
+      "action": "Two big panels: LEFT cream Full Moon labeled FULL (cookie). RIGHT nearly invisible dark Moon with faint outline labeled NEW (sneaky). Friendly, not scary.",
+      "dialogue": "BRAVO: \"New Moon — the Moon is still there.\"",
+      "screen_2d": "Full vs New",
+      "lock_ids": [],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Clean 2D children's educational animation graphic for a TV screen insert, bold flat shapes, soft cel shading, limited palette of deep navy, cream yellow, soft orange and teal. Cute, simple, readable for ages 6–7. NO photoreal, NO 3D, NO horror, NO tiny unreadable text walls. TITLE BEAT: Full vs New compare. VISUAL: Two big panels: LEFT cream Full Moon labeled FULL (cookie). RIGHT nearly invisible dark Moon with faint outline labeled NEW (sneaky). Friendly, not scary.. Designed to look like a bright cartoon playing ON a curved lab monitor / wall screen.",
+      "negative": "photoreal, 3D render, horror moon face, scary crater monsters, tiny unreadable paragraphs, watermark, logo, collage, adult textbook diagram"
+    },
+    {
+      "id": "M12",
+      "scene": "04",
+      "tc": "1:26",
+      "tc_in": "00:01:26",
+      "tc_out": "00:01:36",
+      "dur": 10,
+      "size": "GFX",
+      "title": "Phase parade",
+      "kind": "2d",
+      "camera": "Wide graphic strip.",
+      "action": "Five giant moon phases in a row on navy: New (outline), Crescent banana, Half, Gibbous, Full. Soft bounce-ready shapes. Tiny icons: banana, cookie. Extremely readable for 6-year-olds.",
+      "dialogue": "BRAVO: \"Crescent is like a banana. Half moon. Gibbous is almost full.\"",
+      "screen_2d": "Phase parade",
+      "lock_ids": [],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Clean 2D children's educational animation graphic for a TV screen insert, bold flat shapes, soft cel shading, limited palette of deep navy, cream yellow, soft orange and teal. Cute, simple, readable for ages 6–7. NO photoreal, NO 3D, NO horror, NO tiny unreadable text walls. TITLE BEAT: Phase parade. VISUAL: Five giant moon phases in a row on navy: New (outline), Crescent banana, Half, Gibbous, Full. Soft bounce-ready shapes. Tiny icons: banana, cookie. Extremely readable for 6-year-olds.. Designed to look like a bright cartoon playing ON a curved lab monitor / wall screen.",
+      "negative": "photoreal, 3D render, horror moon face, scary crater monsters, tiny unreadable paragraphs, watermark, logo, collage, adult textbook diagram"
+    },
+    {
+      "id": "M13",
+      "scene": "04",
+      "tc": "1:36",
+      "tc_in": "00:01:36",
+      "tc_out": "00:01:44",
+      "dur": 8,
+      "size": "MS",
+      "title": "Pipi zooms the row",
+      "kind": "3d",
+      "camera": "Tracking with Pipi as she flies along the wall screen phase parade; Bravo points with a small laser. We see their profiles and the glowing graphics.",
+      "action": "Pipi flying beside phase graphics; Bravo pointing; lab teal reflections on screen glass.",
+      "dialogue": "PIPI: \"Moon banana. Do not eat.\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Tracking with Pipi as she flies along the wall screen phase parade; Bravo points with a small laser. We see their profiles and the glowing graphics. WHAT'S ON SCREEN: Pipi flying beside phase graphics; Bravo pointing; lab teal reflections on screen glass. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor OR large wall screen, glass-top work table, two cylindrical suit tubes, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M14",
+      "scene": "04",
+      "tc": "1:44",
+      "tc_in": "00:01:44",
+      "tc_out": "00:01:54",
+      "dur": 10,
+      "size": "GFX",
+      "title": "One-month loop",
+      "kind": "2d",
+      "camera": "Simple motion-friendly loop board.",
+      "action": "Circular arrow around Earth+Moon icons with a cute calendar square marked '~1 MONTH'. Phases tick around the circle. Soft teal accents.",
+      "dialogue": "BRAVO: \"The whole show takes about one month.\"",
+      "screen_2d": "Month loop",
+      "lock_ids": [],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Clean 2D children's educational animation graphic for a TV screen insert, bold flat shapes, soft cel shading, limited palette of deep navy, cream yellow, soft orange and teal. Cute, simple, readable for ages 6–7. NO photoreal, NO 3D, NO horror, NO tiny unreadable text walls. TITLE BEAT: One-month loop. VISUAL: Circular arrow around Earth+Moon icons with a cute calendar square marked '~1 MONTH'. Phases tick around the circle. Soft teal accents.. Designed to look like a bright cartoon playing ON a curved lab monitor / wall screen.",
+      "negative": "photoreal, 3D render, horror moon face, scary crater monsters, tiny unreadable paragraphs, watermark, logo, collage, adult textbook diagram"
+    },
+    {
+      "id": "M15",
+      "scene": "04",
+      "tc": "1:54",
+      "tc_in": "00:01:54",
+      "tc_out": "00:02:02",
+      "dur": 8,
+      "size": "MCU",
+      "title": "Pipi download complete",
+      "kind": "3d",
+      "camera": "Close three-quarter of Pipi visor smiley + Bravo nodding beyond her, both looking at screen.",
+      "action": "Pipi proud beep face; Bravo affirming the lesson.",
+      "dialogue": "PIPI: \"Shape change equals view change. Download complete.\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Close three-quarter of Pipi visor smiley + Bravo nodding beyond her, both looking at screen. WHAT'S ON SCREEN: Pipi proud beep face; Bravo affirming the lesson. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor OR large wall screen, glass-top work table, two cylindrical suit tubes, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M16",
+      "scene": "05",
+      "tc": "2:02",
+      "tc_in": "00:02:02",
+      "tc_out": "00:02:12",
+      "dur": 10,
+      "size": "MS",
+      "title": "Ball still a ball",
+      "kind": "3d",
+      "camera": "Quiet medium: flashlight off, foam ball fully visible as a sphere on the table. Screen shows crescent + STILL A BALL. Bravo and Pipi in soft profile.",
+      "action": "Calm coda in the lab; model Moon on table; crescent on screen.",
+      "dialogue": "BRAVO: \"It did not shrink. You are seeing a different piece of sunlight.\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Quiet medium: flashlight off, foam ball fully visible as a sphere on the table. Screen shows crescent + STILL A BALL. Bravo and Pipi in soft profile. WHAT'S ON SCREEN: Calm coda in the lab; model Moon on table; crescent on screen. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor OR large wall screen, glass-top work table, two cylindrical suit tubes, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M17",
+      "scene": "05",
+      "tc": "2:12",
+      "tc_in": "00:02:12",
+      "tc_out": "00:02:22",
+      "dur": 10,
+      "size": "GFX",
+      "title": "Homework sky",
+      "kind": "2d",
+      "camera": "Friendly night sky card.",
+      "action": "Cute night sky with one crescent Moon. Three big choice buttons/icons: banana / half / cookie. Soft text: TONIGHT — WHICH MOON? Kid game energy, not exam.",
+      "dialogue": "PIPI: \"Find the Moon. Ask: banana, half, or cookie?\"",
+      "screen_2d": "Homework prompt",
+      "lock_ids": [],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Clean 2D children's educational animation graphic for a TV screen insert, bold flat shapes, soft cel shading, limited palette of deep navy, cream yellow, soft orange and teal. Cute, simple, readable for ages 6–7. NO photoreal, NO 3D, NO horror, NO tiny unreadable text walls. TITLE BEAT: Homework sky. VISUAL: Cute night sky with one crescent Moon. Three big choice buttons/icons: banana / half / cookie. Soft text: TONIGHT — WHICH MOON? Kid game energy, not exam.. Designed to look like a bright cartoon playing ON a curved lab monitor / wall screen.",
+      "negative": "photoreal, 3D render, horror moon face, scary crater monsters, tiny unreadable paragraphs, watermark, logo, collage, adult textbook diagram"
+    },
+    {
+      "id": "M18",
+      "scene": "05",
+      "tc": "2:22",
+      "tc_in": "00:02:22",
+      "tc_out": "00:02:30",
+      "dur": 8,
+      "size": "WS",
+      "title": "Sign-off",
+      "kind": "3d",
+      "camera": "Wide lab beauty shot. Bravo waves lightly toward Pipi (not camera). Pipi draws a teal heart over the Moon on screen. Lights dim a touch.",
+      "action": "Widgeteers Explains sign-off in the secret lab, warm and small.",
+      "dialogue": "BRAVO: \"Widgeteers Explains — mystery solved.\"",
+      "screen_2d": "",
+      "lock_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic camera language, 35mm movie frame, motivated practical teal lab lighting, subsurface scattering, Unreal Engine 5 / Octane quality. FILM FRAME not poster. Characters look INTO the scene; backs, profiles, OTS allowed. CAMERA: Wide lab beauty shot. Bravo waves lightly toward Pipi (not camera). Pipi draws a teal heart over the Moon on screen. Lights dim a touch. WHAT'S ON SCREEN: Widgeteers Explains sign-off in the secret lab, warm and small. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor OR large wall screen, glass-top work table, two cylindrical suit tubes, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES: Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, turnaround, character sheet, T-pose, looking at camera, white background, watermark, text overlay, logo, collage, photoreal, horror"
+    },
+    {
+      "id": "M19",
+      "scene": "05",
+      "tc": "2:30",
+      "tc_in": "00:02:30",
+      "tc_out": "00:02:40",
+      "dur": 10,
+      "size": "GFX",
+      "title": "End card",
+      "kind": "2d",
+      "camera": "Simple end card.",
+      "action": "Navy end card: THE END + small Full Moon + tiny Pipi heart. Optional line: Widgeteers Explains. Clean, soft, no clutter.",
+      "dialogue": "THE END",
+      "screen_2d": "End card",
+      "lock_ids": [],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Clean 2D children's educational animation graphic for a TV screen insert, bold flat shapes, soft cel shading, limited palette of deep navy, cream yellow, soft orange and teal. Cute, simple, readable for ages 6–7. NO photoreal, NO 3D, NO horror, NO tiny unreadable text walls. TITLE BEAT: End card. VISUAL: Navy end card: THE END + small Full Moon + tiny Pipi heart. Optional line: Widgeteers Explains. Clean, soft, no clutter.. Designed to look like a bright cartoon playing ON a curved lab monitor / wall screen.",
+      "negative": "photoreal, 3D render, horror moon face, scary crater monsters, tiny unreadable paragraphs, watermark, logo, collage, adult textbook diagram"
+    }
+  ],
+  "acts": [
+    {
+      "id": "I",
+      "name": "The Question",
+      "tc": "0:00–0:55"
+    },
+    {
+      "id": "II",
+      "name": "The Orbit Lesson",
+      "tc": "0:55–2:20"
+    },
+    {
+      "id": "III",
+      "name": "Remember & Look Up",
+      "tc": "2:20–end"
+    }
+  ],
+  "pdf": "scripts/why_does_the_moon_change_shape_script.pdf"
+}

@@ -1,0 +1,1777 @@
+[
+  {
+    "n": 1,
+    "speaker": "PIPI",
+    "start": 0.0,
+    "end": 5.44,
+    "words": [
+      {
+        "word": "Bravo!",
+        "start": 0.0,
+        "end": 0.42
+      },
+      {
+        "word": "Super",
+        "start": 0.82,
+        "end": 1.06
+      },
+      {
+        "word": "fuel!",
+        "start": 1.06,
+        "end": 1.46
+      },
+      {
+        "word": "Candy",
+        "start": 2.06,
+        "end": 2.28
+      },
+      {
+        "word": "bar",
+        "start": 2.28,
+        "end": 2.58
+      },
+      {
+        "word": "plus",
+        "start": 2.58,
+        "end": 3.02
+      },
+      {
+        "word": "soda!",
+        "start": 3.02,
+        "end": 3.36
+      },
+      {
+        "word": "Zoom",
+        "start": 3.92,
+        "end": 4.2
+      },
+      {
+        "word": "zoom",
+        "start": 4.2,
+        "end": 4.7
+      },
+      {
+        "word": "forever!",
+        "start": 4.7,
+        "end": 5.02
+      }
+    ]
+  },
+  {
+    "n": 2,
+    "speaker": "BRAVO",
+    "start": 5.79,
+    "end": 15.31,
+    "words": [
+      {
+        "word": "Candy",
+        "start": 5.79,
+        "end": 6.21
+      },
+      {
+        "word": "can",
+        "start": 6.21,
+        "end": 6.47
+      },
+      {
+        "word": "be",
+        "start": 6.47,
+        "end": 6.71
+      },
+      {
+        "word": "a",
+        "start": 6.71,
+        "end": 6.81
+      },
+      {
+        "word": "treat.",
+        "start": 6.81,
+        "end": 7.03
+      },
+      {
+        "word": "Treats",
+        "start": 8.35,
+        "end": 8.85
+      },
+      {
+        "word": "are",
+        "start": 8.85,
+        "end": 8.99
+      },
+      {
+        "word": "sometimes",
+        "start": 8.99,
+        "end": 9.51
+      },
+      {
+        "word": "food.",
+        "start": 9.51,
+        "end": 9.95
+      },
+      {
+        "word": "Everyday",
+        "start": 10.67,
+        "end": 10.93
+      },
+      {
+        "word": "food",
+        "start": 10.93,
+        "end": 11.41
+      },
+      {
+        "word": "is",
+        "start": 11.41,
+        "end": 11.73
+      },
+      {
+        "word": "the",
+        "start": 11.73,
+        "end": 11.87
+      },
+      {
+        "word": "food",
+        "start": 11.87,
+        "end": 12.13
+      },
+      {
+        "word": "you",
+        "start": 12.13,
+        "end": 12.27
+      },
+      {
+        "word": "eat",
+        "start": 12.27,
+        "end": 12.51
+      },
+      {
+        "word": "most",
+        "start": 12.51,
+        "end": 12.81
+      },
+      {
+        "word": "days.",
+        "start": 12.81,
+        "end": 13.19
+      },
+      {
+        "word": "Let's",
+        "start": 13.89,
+        "end": 14.13
+      },
+      {
+        "word": "check",
+        "start": 14.13,
+        "end": 14.29
+      },
+      {
+        "word": "the",
+        "start": 14.29,
+        "end": 14.47
+      },
+      {
+        "word": "chalkboard.",
+        "start": 14.47,
+        "end": 14.97
+      }
+    ]
+  },
+  {
+    "n": 3,
+    "speaker": "BRAVO",
+    "start": 15.61,
+    "end": 42.09,
+    "words": [
+      {
+        "word": "Everyday",
+        "start": 15.61,
+        "end": 15.97
+      },
+      {
+        "word": "food",
+        "start": 15.97,
+        "end": 16.47
+      },
+      {
+        "word": "looks",
+        "start": 16.47,
+        "end": 16.85
+      },
+      {
+        "word": "like",
+        "start": 16.85,
+        "end": 17.09
+      },
+      {
+        "word": "this.",
+        "start": 17.09,
+        "end": 17.41
+      },
+      {
+        "word": "An",
+        "start": 19.21,
+        "end": 19.97
+      },
+      {
+        "word": "apple.",
+        "start": 19.97,
+        "end": 20.41
+      },
+      {
+        "word": "A",
+        "start": 22.11,
+        "end": 22.87
+      },
+      {
+        "word": "carrot.",
+        "start": 22.87,
+        "end": 23.19
+      },
+      {
+        "word": "A",
+        "start": 25.03,
+        "end": 25.79
+      },
+      {
+        "word": "banana.",
+        "start": 25.79,
+        "end": 26.15
+      },
+      {
+        "word": "Broccoli.",
+        "start": 28.73,
+        "end": 29.31
+      },
+      {
+        "word": "Eggs.",
+        "start": 31.21,
+        "end": 31.97
+      },
+      {
+        "word": "Bread.",
+        "start": 34.15,
+        "end": 34.91
+      },
+      {
+        "word": "They",
+        "start": 36.27,
+        "end": 37.03
+      },
+      {
+        "word": "give",
+        "start": 37.03,
+        "end": 37.25
+      },
+      {
+        "word": "energy",
+        "start": 37.25,
+        "end": 37.55
+      },
+      {
+        "word": "to",
+        "start": 37.55,
+        "end": 37.93
+      },
+      {
+        "word": "play,",
+        "start": 37.93,
+        "end": 38.17
+      },
+      {
+        "word": "food",
+        "start": 38.55,
+        "end": 38.73
+      },
+      {
+        "word": "to",
+        "start": 38.73,
+        "end": 38.99
+      },
+      {
+        "word": "grow,",
+        "start": 38.99,
+        "end": 39.25
+      },
+      {
+        "word": "and",
+        "start": 39.73,
+        "end": 39.83
+      },
+      {
+        "word": "tiny",
+        "start": 39.83,
+        "end": 40.13
+      },
+      {
+        "word": "helpers",
+        "start": 40.13,
+        "end": 40.57
+      },
+      {
+        "word": "that",
+        "start": 40.57,
+        "end": 40.91
+      },
+      {
+        "word": "keep",
+        "start": 40.91,
+        "end": 41.17
+      },
+      {
+        "word": "you",
+        "start": 41.17,
+        "end": 41.45
+      },
+      {
+        "word": "well.",
+        "start": 41.45,
+        "end": 41.79
+      }
+    ]
+  },
+  {
+    "n": 4,
+    "speaker": "BRAVO",
+    "start": 42.44,
+    "end": 57.32,
+    "words": [
+      {
+        "word": "Bite",
+        "start": 43.14,
+        "end": 43.74
+      },
+      {
+        "word": "an",
+        "start": 43.74,
+        "end": 43.98
+      },
+      {
+        "word": "apple.",
+        "start": 43.98,
+        "end": 44.22
+      },
+      {
+        "word": "It",
+        "start": 44.84,
+        "end": 44.92
+      },
+      {
+        "word": "is",
+        "start": 44.92,
+        "end": 45.04
+      },
+      {
+        "word": "sweet",
+        "start": 45.04,
+        "end": 45.36
+      },
+      {
+        "word": "from",
+        "start": 45.36,
+        "end": 45.68
+      },
+      {
+        "word": "the",
+        "start": 45.68,
+        "end": 45.84
+      },
+      {
+        "word": "tree.",
+        "start": 45.84,
+        "end": 46.12
+      },
+      {
+        "word": "The",
+        "start": 48.22,
+        "end": 48.48
+      },
+      {
+        "word": "chewy",
+        "start": 48.48,
+        "end": 48.82
+      },
+      {
+        "word": "bits",
+        "start": 48.82,
+        "end": 49.12
+      },
+      {
+        "word": "help",
+        "start": 49.12,
+        "end": 49.46
+      },
+      {
+        "word": "your",
+        "start": 49.46,
+        "end": 49.66
+      },
+      {
+        "word": "tummy.",
+        "start": 49.66,
+        "end": 50.16
+      },
+      {
+        "word": "Like",
+        "start": 50.94,
+        "end": 51.02
+      },
+      {
+        "word": "a",
+        "start": 51.02,
+        "end": 51.2
+      },
+      {
+        "word": "tiny",
+        "start": 51.2,
+        "end": 51.6
+      },
+      {
+        "word": "broom,",
+        "start": 51.6,
+        "end": 52.04
+      },
+      {
+        "word": "sweeping",
+        "start": 52.04,
+        "end": 52.62
+      },
+      {
+        "word": "food",
+        "start": 52.62,
+        "end": 53.22
+      },
+      {
+        "word": "along.",
+        "start": 53.22,
+        "end": 53.52
+      },
+      {
+        "word": "That",
+        "start": 54.4,
+        "end": 54.58
+      },
+      {
+        "word": "is",
+        "start": 54.58,
+        "end": 54.76
+      },
+      {
+        "word": "why",
+        "start": 54.76,
+        "end": 55.0
+      },
+      {
+        "word": "fruit",
+        "start": 55.0,
+        "end": 55.3
+      },
+      {
+        "word": "is",
+        "start": 55.3,
+        "end": 55.64
+      },
+      {
+        "word": "not",
+        "start": 55.64,
+        "end": 55.96
+      },
+      {
+        "word": "the",
+        "start": 55.96,
+        "end": 56.24
+      },
+      {
+        "word": "same",
+        "start": 56.24,
+        "end": 56.52
+      },
+      {
+        "word": "as",
+        "start": 56.52,
+        "end": 57.14
+      },
+      {
+        "word": "candy.",
+        "start": 57.14,
+        "end": 57.14
+      }
+    ]
+  },
+  {
+    "n": 5,
+    "speaker": "PIPI",
+    "start": 57.62,
+    "end": 61.94,
+    "words": [
+      {
+        "word": "Tummy",
+        "start": 57.62,
+        "end": 57.92
+      },
+      {
+        "word": "broom!",
+        "start": 57.92,
+        "end": 58.24
+      },
+      {
+        "word": "Sweep",
+        "start": 58.8,
+        "end": 59.7
+      },
+      {
+        "word": "sweep",
+        "start": 59.7,
+        "end": 60.02
+      },
+      {
+        "word": "apple!",
+        "start": 60.02,
+        "end": 60.48
+      }
+    ]
+  },
+  {
+    "n": 6,
+    "speaker": "BRAVO",
+    "start": 62.22,
+    "end": 75.34,
+    "words": [
+      {
+        "word": "Now",
+        "start": 62.22,
+        "end": 62.54
+      },
+      {
+        "word": "candy.",
+        "start": 62.54,
+        "end": 63.02
+      },
+      {
+        "word": "It",
+        "start": 63.94,
+        "end": 63.96
+      },
+      {
+        "word": "is",
+        "start": 63.96,
+        "end": 64.06
+      },
+      {
+        "word": "packed",
+        "start": 64.06,
+        "end": 64.36
+      },
+      {
+        "word": "with",
+        "start": 64.36,
+        "end": 64.72
+      },
+      {
+        "word": "sugar.",
+        "start": 64.72,
+        "end": 65.12
+      },
+      {
+        "word": "Sugar",
+        "start": 66.12,
+        "end": 66.12
+      },
+      {
+        "word": "is",
+        "start": 66.12,
+        "end": 66.46
+      },
+      {
+        "word": "a",
+        "start": 66.46,
+        "end": 66.64
+      },
+      {
+        "word": "FAST",
+        "start": 66.64,
+        "end": 67.16
+      },
+      {
+        "word": "zap.",
+        "start": 67.16,
+        "end": 67.74
+      },
+      {
+        "word": "You",
+        "start": 68.36,
+        "end": 68.44
+      },
+      {
+        "word": "feel",
+        "start": 68.44,
+        "end": 68.74
+      },
+      {
+        "word": "zoomy...",
+        "start": 68.74,
+        "end": 70.1
+      },
+      {
+        "word": "then",
+        "start": 70.1,
+        "end": 70.2
+      },
+      {
+        "word": "crash.",
+        "start": 70.2,
+        "end": 70.5
+      },
+      {
+        "word": "Tired.",
+        "start": 71.5,
+        "end": 71.86
+      },
+      {
+        "word": "Grumpy.",
+        "start": 72.58,
+        "end": 72.74
+      },
+      {
+        "word": "The",
+        "start": 73.92,
+        "end": 73.94
+      },
+      {
+        "word": "zoom",
+        "start": 73.94,
+        "end": 74.24
+      },
+      {
+        "word": "runs",
+        "start": 74.24,
+        "end": 74.66
+      },
+      {
+        "word": "out.",
+        "start": 74.66,
+        "end": 75.06
+      }
+    ]
+  },
+  {
+    "n": 7,
+    "speaker": "BRAVO",
+    "start": 75.69,
+    "end": 87.85,
+    "words": [
+      {
+        "word": "Sugar",
+        "start": 75.69,
+        "end": 76.53
+      },
+      {
+        "word": "also",
+        "start": 76.53,
+        "end": 76.99
+      },
+      {
+        "word": "sticks",
+        "start": 76.99,
+        "end": 77.47
+      },
+      {
+        "word": "on",
+        "start": 77.47,
+        "end": 77.75
+      },
+      {
+        "word": "teeth.",
+        "start": 77.75,
+        "end": 78.07
+      },
+      {
+        "word": "Tiny",
+        "start": 79.67,
+        "end": 80.03
+      },
+      {
+        "word": "germs",
+        "start": 80.03,
+        "end": 80.63
+      },
+      {
+        "word": "eat",
+        "start": 80.63,
+        "end": 80.91
+      },
+      {
+        "word": "that",
+        "start": 80.91,
+        "end": 81.19
+      },
+      {
+        "word": "sugar.",
+        "start": 81.19,
+        "end": 81.55
+      },
+      {
+        "word": "Then",
+        "start": 82.17,
+        "end": 82.25
+      },
+      {
+        "word": "they",
+        "start": 82.25,
+        "end": 82.55
+      },
+      {
+        "word": "make",
+        "start": 82.55,
+        "end": 82.79
+      },
+      {
+        "word": "holes.",
+        "start": 82.79,
+        "end": 83.13
+      },
+      {
+        "word": "So",
+        "start": 84.15,
+        "end": 84.23
+      },
+      {
+        "word": "sweets",
+        "start": 84.23,
+        "end": 84.71
+      },
+      {
+        "word": "are",
+        "start": 84.71,
+        "end": 85.09
+      },
+      {
+        "word": "sometimes",
+        "start": 85.09,
+        "end": 85.57
+      },
+      {
+        "word": "food.",
+        "start": 85.57,
+        "end": 86.05
+      },
+      {
+        "word": "Not",
+        "start": 86.61,
+        "end": 86.71
+      },
+      {
+        "word": "everyday",
+        "start": 86.71,
+        "end": 87.11
+      },
+      {
+        "word": "food.",
+        "start": 87.11,
+        "end": 87.63
+      }
+    ]
+  },
+  {
+    "n": 8,
+    "speaker": "PIPI",
+    "start": 88.15,
+    "end": 92.71,
+    "words": [
+      {
+        "word": "Holes",
+        "start": 88.15,
+        "end": 89.11
+      },
+      {
+        "word": "in",
+        "start": 89.11,
+        "end": 89.29
+      },
+      {
+        "word": "Bravo",
+        "start": 89.29,
+        "end": 89.49
+      },
+      {
+        "word": "teeth?",
+        "start": 89.49,
+        "end": 89.89
+      },
+      {
+        "word": "Do",
+        "start": 90.75,
+        "end": 90.75
+      },
+      {
+        "word": "not",
+        "start": 90.75,
+        "end": 91.07
+      },
+      {
+        "word": "want",
+        "start": 91.07,
+        "end": 91.37
+      },
+      {
+        "word": "a",
+        "start": 91.37,
+        "end": 91.51
+      },
+      {
+        "word": "Swiss-cheese",
+        "start": 91.51,
+        "end": 92.07
+      },
+      {
+        "word": "smile!",
+        "start": 92.07,
+        "end": 92.39
+      }
+    ]
+  },
+  {
+    "n": 9,
+    "speaker": "BRAVO",
+    "start": 92.99,
+    "end": 109.23,
+    "words": [
+      {
+        "word": "Soda",
+        "start": 92.99,
+        "end": 93.31
+      },
+      {
+        "word": "is",
+        "start": 93.31,
+        "end": 93.67
+      },
+      {
+        "word": "sneakier.",
+        "start": 93.67,
+        "end": 94.35
+      },
+      {
+        "word": "It",
+        "start": 95.59,
+        "end": 95.87
+      },
+      {
+        "word": "looks",
+        "start": 95.87,
+        "end": 96.09
+      },
+      {
+        "word": "like",
+        "start": 96.09,
+        "end": 96.39
+      },
+      {
+        "word": "a",
+        "start": 96.39,
+        "end": 96.53
+      },
+      {
+        "word": "drink.",
+        "start": 96.53,
+        "end": 96.79
+      },
+      {
+        "word": "It",
+        "start": 97.61,
+        "end": 97.75
+      },
+      {
+        "word": "is",
+        "start": 97.75,
+        "end": 98.43
+      },
+      {
+        "word": "water",
+        "start": 98.43,
+        "end": 98.71
+      },
+      {
+        "word": "plus",
+        "start": 98.71,
+        "end": 99.35
+      },
+      {
+        "word": "a",
+        "start": 99.35,
+        "end": 99.55
+      },
+      {
+        "word": "sugar",
+        "start": 99.55,
+        "end": 99.77
+      },
+      {
+        "word": "storm",
+        "start": 99.77,
+        "end": 100.17
+      },
+      {
+        "word": "plus",
+        "start": 100.17,
+        "end": 100.65
+      },
+      {
+        "word": "bubbles.",
+        "start": 100.65,
+        "end": 101.07
+      },
+      {
+        "word": "Your",
+        "start": 101.99,
+        "end": 102.05
+      },
+      {
+        "word": "body",
+        "start": 102.05,
+        "end": 102.45
+      },
+      {
+        "word": "asked",
+        "start": 102.45,
+        "end": 102.75
+      },
+      {
+        "word": "for",
+        "start": 102.75,
+        "end": 103.05
+      },
+      {
+        "word": "water.",
+        "start": 103.05,
+        "end": 103.41
+      },
+      {
+        "word": "Water",
+        "start": 104.17,
+        "end": 104.31
+      },
+      {
+        "word": "is",
+        "start": 104.31,
+        "end": 104.65
+      },
+      {
+        "word": "the",
+        "start": 104.65,
+        "end": 104.81
+      },
+      {
+        "word": "real",
+        "start": 104.81,
+        "end": 105.03
+      },
+      {
+        "word": "drink.",
+        "start": 105.03,
+        "end": 105.37
+      },
+      {
+        "word": "Milk",
+        "start": 105.99,
+        "end": 106.05
+      },
+      {
+        "word": "too.",
+        "start": 106.05,
+        "end": 106.47
+      },
+      {
+        "word": "Soda",
+        "start": 107.43,
+        "end": 107.59
+      },
+      {
+        "word": "is",
+        "start": 107.59,
+        "end": 107.93
+      },
+      {
+        "word": "a",
+        "start": 107.93,
+        "end": 108.07
+      },
+      {
+        "word": "sometimes",
+        "start": 108.07,
+        "end": 108.45
+      },
+      {
+        "word": "sip.",
+        "start": 108.45,
+        "end": 109.03
+      }
+    ]
+  },
+  {
+    "n": 10,
+    "speaker": "BRAVO",
+    "start": 109.58,
+    "end": 131.18,
+    "words": [
+      {
+        "word": "Some",
+        "start": 109.58,
+        "end": 109.92
+      },
+      {
+        "word": "snacks",
+        "start": 109.92,
+        "end": 110.18
+      },
+      {
+        "word": "are",
+        "start": 110.18,
+        "end": 110.72
+      },
+      {
+        "word": "changed",
+        "start": 110.72,
+        "end": 111.14
+      },
+      {
+        "word": "in",
+        "start": 111.14,
+        "end": 111.5
+      },
+      {
+        "word": "a",
+        "start": 111.5,
+        "end": 111.58
+      },
+      {
+        "word": "factory.",
+        "start": 111.58,
+        "end": 112.1
+      },
+      {
+        "word": "Chips.",
+        "start": 113.3,
+        "end": 114.12
+      },
+      {
+        "word": "Packaged",
+        "start": 114.88,
+        "end": 115.32
+      },
+      {
+        "word": "sweets.",
+        "start": 115.32,
+        "end": 115.64
+      },
+      {
+        "word": "Extra",
+        "start": 116.5,
+        "end": 116.52
+      },
+      {
+        "word": "sugar,",
+        "start": 116.52,
+        "end": 117.12
+      },
+      {
+        "word": "extra",
+        "start": 117.6,
+        "end": 117.74
+      },
+      {
+        "word": "salt,",
+        "start": 117.74,
+        "end": 118.34
+      },
+      {
+        "word": "extra",
+        "start": 118.76,
+        "end": 119.22
+      },
+      {
+        "word": "oil.",
+        "start": 119.22,
+        "end": 119.6
+      },
+      {
+        "word": "They",
+        "start": 120.98,
+        "end": 121.0
+      },
+      {
+        "word": "last",
+        "start": 121.0,
+        "end": 121.3
+      },
+      {
+        "word": "on",
+        "start": 121.3,
+        "end": 121.66
+      },
+      {
+        "word": "a",
+        "start": 121.66,
+        "end": 121.78
+      },
+      {
+        "word": "shelf",
+        "start": 121.78,
+        "end": 122.06
+      },
+      {
+        "word": "and",
+        "start": 122.06,
+        "end": 122.46
+      },
+      {
+        "word": "shout",
+        "start": 122.46,
+        "end": 122.78
+      },
+      {
+        "word": "at",
+        "start": 122.78,
+        "end": 123.12
+      },
+      {
+        "word": "your",
+        "start": 123.12,
+        "end": 123.26
+      },
+      {
+        "word": "tongue.",
+        "start": 123.26,
+        "end": 123.56
+      },
+      {
+        "word": "Tummy",
+        "start": 124.28,
+        "end": 124.42
+      },
+      {
+        "word": "fills",
+        "start": 124.42,
+        "end": 124.74
+      },
+      {
+        "word": "up...",
+        "start": 124.74,
+        "end": 126.2
+      },
+      {
+        "word": "helpers",
+        "start": 126.2,
+        "end": 126.2
+      },
+      {
+        "word": "never",
+        "start": 126.2,
+        "end": 126.56
+      },
+      {
+        "word": "arrive.",
+        "start": 126.56,
+        "end": 127.2
+      },
+      {
+        "word": "Sometimes",
+        "start": 128.62,
+        "end": 128.62
+      },
+      {
+        "word": "food.",
+        "start": 128.62,
+        "end": 129.04
+      },
+      {
+        "word": "Not",
+        "start": 129.8,
+        "end": 129.8
+      },
+      {
+        "word": "everyday",
+        "start": 129.8,
+        "end": 130.34
+      },
+      {
+        "word": "food.",
+        "start": 130.34,
+        "end": 130.94
+      }
+    ]
+  },
+  {
+    "n": 11,
+    "speaker": "PIPI",
+    "start": 131.53,
+    "end": 137.77,
+    "words": [
+      {
+        "word": "Sometimes...",
+        "start": 132.03,
+        "end": 132.51
+      },
+      {
+        "word": "was",
+        "start": 132.51,
+        "end": 132.73
+      },
+      {
+        "word": "my",
+        "start": 132.73,
+        "end": 132.95
+      },
+      {
+        "word": "every",
+        "start": 132.95,
+        "end": 133.19
+      },
+      {
+        "word": "day.",
+        "start": 133.19,
+        "end": 133.55
+      },
+      {
+        "word": "Candy",
+        "start": 134.79,
+        "end": 135.27
+      },
+      {
+        "word": "goes",
+        "start": 135.27,
+        "end": 135.51
+      },
+      {
+        "word": "in",
+        "start": 135.51,
+        "end": 135.69
+      },
+      {
+        "word": "the",
+        "start": 135.69,
+        "end": 135.77
+      },
+      {
+        "word": "sometimes",
+        "start": 135.77,
+        "end": 136.01
+      },
+      {
+        "word": "box.",
+        "start": 136.01,
+        "end": 136.55
+      }
+    ]
+  },
+  {
+    "n": 12,
+    "speaker": "BRAVO",
+    "start": 138.07,
+    "end": 154.95,
+    "words": [
+      {
+        "word": "One",
+        "start": 138.07,
+        "end": 138.51
+      },
+      {
+        "word": "more",
+        "start": 138.51,
+        "end": 138.77
+      },
+      {
+        "word": "job.",
+        "start": 138.77,
+        "end": 139.25
+      },
+      {
+        "word": "Wash",
+        "start": 140.83,
+        "end": 141.19
+      },
+      {
+        "word": "fruits",
+        "start": 141.19,
+        "end": 141.57
+      },
+      {
+        "word": "and",
+        "start": 141.57,
+        "end": 141.83
+      },
+      {
+        "word": "veggies",
+        "start": 141.83,
+        "end": 142.11
+      },
+      {
+        "word": "BEFORE",
+        "start": 142.11,
+        "end": 142.75
+      },
+      {
+        "word": "you",
+        "start": 142.75,
+        "end": 143.29
+      },
+      {
+        "word": "eat",
+        "start": 143.29,
+        "end": 143.51
+      },
+      {
+        "word": "them.",
+        "start": 143.51,
+        "end": 143.85
+      },
+      {
+        "word": "Dirt,",
+        "start": 145.19,
+        "end": 145.19
+      },
+      {
+        "word": "dust,",
+        "start": 146.07,
+        "end": 146.23
+      },
+      {
+        "word": "and",
+        "start": 146.63,
+        "end": 146.67
+      },
+      {
+        "word": "tiny",
+        "start": 146.67,
+        "end": 146.95
+      },
+      {
+        "word": "germs",
+        "start": 146.95,
+        "end": 147.61
+      },
+      {
+        "word": "ride",
+        "start": 147.61,
+        "end": 147.93
+      },
+      {
+        "word": "on",
+        "start": 147.93,
+        "end": 148.21
+      },
+      {
+        "word": "the",
+        "start": 148.21,
+        "end": 148.31
+      },
+      {
+        "word": "skin.",
+        "start": 148.31,
+        "end": 148.59
+      },
+      {
+        "word": "People",
+        "start": 149.23,
+        "end": 149.35
+      },
+      {
+        "word": "touch",
+        "start": 149.35,
+        "end": 149.67
+      },
+      {
+        "word": "them",
+        "start": 149.67,
+        "end": 149.99
+      },
+      {
+        "word": "at",
+        "start": 149.99,
+        "end": 150.13
+      },
+      {
+        "word": "the",
+        "start": 150.13,
+        "end": 150.25
+      },
+      {
+        "word": "store.",
+        "start": 150.25,
+        "end": 150.55
+      },
+      {
+        "word": "Rub",
+        "start": 151.57,
+        "end": 151.57
+      },
+      {
+        "word": "under",
+        "start": 151.57,
+        "end": 151.89
+      },
+      {
+        "word": "clean",
+        "start": 151.89,
+        "end": 152.17
+      },
+      {
+        "word": "water.",
+        "start": 152.17,
+        "end": 152.65
+      },
+      {
+        "word": "No",
+        "start": 153.11,
+        "end": 153.15
+      },
+      {
+        "word": "soap.",
+        "start": 153.15,
+        "end": 153.47
+      },
+      {
+        "word": "Then",
+        "start": 154.13,
+        "end": 154.13
+      },
+      {
+        "word": "they",
+        "start": 154.13,
+        "end": 154.31
+      },
+      {
+        "word": "are",
+        "start": 154.31,
+        "end": 154.45
+      },
+      {
+        "word": "ready.",
+        "start": 154.45,
+        "end": 154.65
+      }
+    ]
+  },
+  {
+    "n": 13,
+    "speaker": "PIPI",
+    "start": 155.3,
+    "end": 160.74,
+    "words": [
+      {
+        "word": "Pipi",
+        "start": 155.3,
+        "end": 155.64
+      },
+      {
+        "word": "licks",
+        "start": 155.64,
+        "end": 155.92
+      },
+      {
+        "word": "apples.",
+        "start": 155.92,
+        "end": 156.26
+      },
+      {
+        "word": "Licking",
+        "start": 157.3,
+        "end": 157.7
+      },
+      {
+        "word": "is",
+        "start": 157.7,
+        "end": 157.98
+      },
+      {
+        "word": "not",
+        "start": 157.98,
+        "end": 158.26
+      },
+      {
+        "word": "washing.",
+        "start": 158.26,
+        "end": 158.72
+      },
+      {
+        "word": "Water",
+        "start": 159.66,
+        "end": 160.02
+      },
+      {
+        "word": "first.",
+        "start": 160.02,
+        "end": 160.38
+      }
+    ]
+  },
+  {
+    "n": 14,
+    "speaker": "BRAVO",
+    "start": 161.02,
+    "end": 175.34,
+    "words": [
+      {
+        "word": "Rainbow",
+        "start": 161.02,
+        "end": 161.54
+      },
+      {
+        "word": "plate.",
+        "start": 161.54,
+        "end": 161.92
+      },
+      {
+        "word": "Red",
+        "start": 162.76,
+        "end": 162.84
+      },
+      {
+        "word": "apple",
+        "start": 162.84,
+        "end": 163.1
+      },
+      {
+        "word": "helps",
+        "start": 163.1,
+        "end": 163.64
+      },
+      {
+        "word": "your",
+        "start": 163.64,
+        "end": 163.82
+      },
+      {
+        "word": "tummy.",
+        "start": 163.82,
+        "end": 164.28
+      },
+      {
+        "word": "Orange",
+        "start": 164.82,
+        "end": 164.82
+      },
+      {
+        "word": "carrot",
+        "start": 164.82,
+        "end": 165.12
+      },
+      {
+        "word": "helps",
+        "start": 165.12,
+        "end": 165.62
+      },
+      {
+        "word": "you",
+        "start": 165.62,
+        "end": 165.88
+      },
+      {
+        "word": "see.",
+        "start": 165.88,
+        "end": 166.16
+      },
+      {
+        "word": "Yellow",
+        "start": 166.62,
+        "end": 166.88
+      },
+      {
+        "word": "banana",
+        "start": 166.88,
+        "end": 167.16
+      },
+      {
+        "word": "gives",
+        "start": 167.16,
+        "end": 167.68
+      },
+      {
+        "word": "energy",
+        "start": 167.68,
+        "end": 168.04
+      },
+      {
+        "word": "that",
+        "start": 168.04,
+        "end": 168.4
+      },
+      {
+        "word": "lasts.",
+        "start": 168.4,
+        "end": 168.76
+      },
+      {
+        "word": "Green",
+        "start": 169.7,
+        "end": 169.7
+      },
+      {
+        "word": "broccoli",
+        "start": 169.7,
+        "end": 170.0
+      },
+      {
+        "word": "helps",
+        "start": 170.0,
+        "end": 170.6
+      },
+      {
+        "word": "you",
+        "start": 170.6,
+        "end": 170.86
+      },
+      {
+        "word": "stay",
+        "start": 170.86,
+        "end": 171.16
+      },
+      {
+        "word": "well.",
+        "start": 171.16,
+        "end": 171.56
+      },
+      {
+        "word": "Eggs",
+        "start": 172.06,
+        "end": 172.14
+      },
+      {
+        "word": "help",
+        "start": 172.14,
+        "end": 172.46
+      },
+      {
+        "word": "you",
+        "start": 172.46,
+        "end": 172.68
+      },
+      {
+        "word": "grow.",
+        "start": 172.68,
+        "end": 172.92
+      },
+      {
+        "word": "Bread",
+        "start": 173.52,
+        "end": 173.52
+      },
+      {
+        "word": "helps",
+        "start": 173.52,
+        "end": 173.84
+      },
+      {
+        "word": "you",
+        "start": 173.84,
+        "end": 174.14
+      },
+      {
+        "word": "run",
+        "start": 174.14,
+        "end": 174.38
+      },
+      {
+        "word": "and",
+        "start": 174.38,
+        "end": 174.58
+      },
+      {
+        "word": "play.",
+        "start": 174.58,
+        "end": 174.88
+      }
+    ]
+  },
+  {
+    "n": 15,
+    "speaker": "BRAVO",
+    "start": 175.69,
+    "end": 184.73,
+    "words": [
+      {
+        "word": "Tonight",
+        "start": 175.69,
+        "end": 176.05
+      },
+      {
+        "word": "mission:",
+        "start": 176.05,
+        "end": 177.41
+      },
+      {
+        "word": "wash",
+        "start": 177.41,
+        "end": 177.51
+      },
+      {
+        "word": "a",
+        "start": 177.51,
+        "end": 177.83
+      },
+      {
+        "word": "fruit.",
+        "start": 177.83,
+        "end": 178.11
+      },
+      {
+        "word": "Eat",
+        "start": 178.77,
+        "end": 178.85
+      },
+      {
+        "word": "it.",
+        "start": 178.85,
+        "end": 179.03
+      },
+      {
+        "word": "Drink",
+        "start": 179.43,
+        "end": 179.49
+      },
+      {
+        "word": "water.",
+        "start": 179.49,
+        "end": 179.93
+      },
+      {
+        "word": "Save",
+        "start": 180.49,
+        "end": 180.55
+      },
+      {
+        "word": "candy",
+        "start": 180.55,
+        "end": 180.79
+      },
+      {
+        "word": "for",
+        "start": 180.79,
+        "end": 181.09
+      },
+      {
+        "word": "sometimes.",
+        "start": 181.09,
+        "end": 181.47
+      },
+      {
+        "word": "Widgeteers",
+        "start": 182.29,
+        "end": 182.65
+      },
+      {
+        "word": "Explains...",
+        "start": 182.65,
+        "end": 183.59
+      },
+      {
+        "word": "mystery",
+        "start": 183.59,
+        "end": 183.87
+      },
+      {
+        "word": "solved.",
+        "start": 183.87,
+        "end": 184.29
+      }
+    ]
+  }
+]

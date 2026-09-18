@@ -1,0 +1,2281 @@
+{
+  "series": "The Widgeteers",
+  "title": "The Ghost of Glow-A-Lot",
+  "code": "EP05",
+  "runtime": "5:00",
+  "runtime_seconds": 300,
+  "logline": "When a spooky 'ghost' empties Glow-A-Lot Carnival and eyes the charity pumpkin bank, the Widgeteers find two lousy burglars — and one very sleepy owl.",
+  "moral": "The thing you're scared of might just need a nap. Charity isn't for taking. Look closer.",
+  "tone": "Kids 3D Pixar adventure-comedy. Scooby-Doo bones, zero horror.",
+  "style_lock": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty.",
+  "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion",
+  "characters": [
+    {
+      "id": "bravo",
+      "name": "Bravo",
+      "role": "Widgeteer — brains",
+      "blurb": "Ten-year-old inventor. Ghosts are 'unverified'. Gadgets first, panic never (almost).",
+      "images": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png"
+      ]
+    },
+    {
+      "id": "tango",
+      "name": "Tango",
+      "role": "Widgeteer — guts",
+      "blurb": "Ten-year-old athlete. Jumps first, screams second, high-fives third.",
+      "images": [
+        "Characters/tango_civilian.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png"
+      ]
+    },
+    {
+      "id": "pipi",
+      "name": "Pipi",
+      "role": "Tiny drone pal",
+      "blurb": "Hovering lab buddy. Scans, beeps, and the occasional perfectly timed BOO.",
+      "images": [
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ]
+    },
+    {
+      "id": "muffin",
+      "name": "Muffin",
+      "role": "Bumbling burglar",
+      "blurb": "Round, hungry, and convinced every plan is a snack plan.",
+      "images": [
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png"
+      ]
+    },
+    {
+      "id": "churro",
+      "name": "Churro",
+      "role": "Skinny 'mastermind'",
+      "blurb": "Mustache, fedora, terrible ideas with excellent branding.",
+      "images": [
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg",
+        "Characters/muffin_churro.png"
+      ]
+    },
+    {
+      "id": "hoot",
+      "name": "Hoot",
+      "role": "The 'ghost'",
+      "blurb": "Shy carnival owl who nested in the Kindness Pumpkin. Cape optional, nap mandatory.",
+      "images": []
+    }
+  ],
+  "locations": [
+    {
+      "id": "tango_room",
+      "name": "Tango's bedroom",
+      "images": [
+        "Locations/tango_badroom.png"
+      ],
+      "note": "Act I call-to-adventure. Keep gear wallpaper, posters, basketball clutter."
+    },
+    {
+      "id": "lab",
+      "name": "Secret lab",
+      "images": [
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "note": "Suit-up and briefing. Teal practicals, suit tubes, Pipi's domain."
+    },
+    {
+      "id": "carnival",
+      "name": "Glow-A-Lot Carnival",
+      "images": [],
+      "note": "No plate yet — invent a cozy Pixar autumn carnival, never horror-park."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "act": "I",
+      "tc": "0:00–0:22",
+      "heading": "SCENE 01  EXT. GLOW-A-LOT CARNIVAL - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "A cozy autumn carnival glows on the edge of town. A gold-and-purple FERRIS WHEEL turns slow as a lullaby. Fairy lights stitch the midway together. A wooden arch reads GLOW-A-LOT CARNIVAL — FALL FEST. Kids weave past cotton candy and bumper cars. Center stage: a GIANT smiling PUMPKIN PIGGY-BANK on a pedestal, wrapped in string lights. A banner flaps: KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!"
+        },
+        {
+          "type": "action",
+          "text": "A LITTLE GIRL on her dad's shoulders drops a coin into the slot. The pumpkin RATTLES from somewhere deep inside — too alive for a wooden box. A pale shape flutters past the Ferris wheel and is gone."
+        },
+        {
+          "type": "char",
+          "name": "CARNIVAL KID"
+        },
+        {
+          "type": "paren",
+          "text": "(pointing up, whispering)"
+        },
+        {
+          "type": "dial",
+          "text": "Did you see that? The Ghost of Glow-A-Lot!"
+        },
+        {
+          "type": "char",
+          "name": "CARNIVAL DAD"
+        },
+        {
+          "type": "paren",
+          "text": "(forcing a laugh)"
+        },
+        {
+          "type": "dial",
+          "text": "It's just the wind, sweetheart. ...Right?"
+        },
+        {
+          "type": "action",
+          "text": "A gust. A white sheet-like figure WHOOSHES over the pumpkin and melts into the fog. The calliope hits a sour note. Coins inside the pumpkin clink like little footsteps."
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "act": "I",
+      "tc": "0:22–0:52",
+      "heading": "SCENE 02  INT. TANGO'S BEDROOM - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "Blue gear-print wallpaper. Captain Spark posters. A basketball under the desk. TANGO, civilian clothes, spins a ball on one finger while a small TABLET on the desk plays the news. He is half-watching. Then he isn't."
+        },
+        {
+          "type": "char",
+          "name": "REPORTER (ON TABLET)"
+        },
+        {
+          "type": "paren",
+          "text": "(breathless)"
+        },
+        {
+          "type": "dial",
+          "text": "...Glow-A-Lot Carnival closed early after guests reported a floating white phantom circling the Kindness Pumpkin. Donations for the petting zoo were left sitting in the open!"
+        },
+        {
+          "type": "action",
+          "text": "Tango stops the ball with both hands. His eyes go dinner-plate wide."
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "dial",
+          "text": "Bravo. Bravo. BRAVO."
+        },
+        {
+          "type": "action",
+          "text": "He slaps his communicator. BRAVO's face pops up in a tiny holo — already wearing that I-have-a-theory look, glasses catching the desk lamp."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO (COMM)"
+        },
+        {
+          "type": "dial",
+          "text": "I saw it. Floating white mass. Unexplained rattle. Charity money sitting in the open. That is not a ghost, Tango. That is a problem."
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "paren",
+          "text": "(already grabbing his cap)"
+        },
+        {
+          "type": "dial",
+          "text": "Race you to the lab. Loser cleans Pipi's propellers."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "act": "I",
+      "tc": "0:52–1:22",
+      "heading": "SCENE 03  INT. BRAVO'S SECRET LAB - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "Chrome panels. Teal strip lights. Two glass SUIT TUBES glow — purple-gold and teal-green. PIPI zips a figure-eight over the work table, visor smiling. Bravo is already at the curved holo-desk. Tango jogs in, basketball abandoned by the stairs."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "paren",
+          "text": "(bright, chirpy)"
+        },
+        {
+          "type": "dial",
+          "text": "Scan complete. One giant pumpkin. Many coins. One very suspicious fog cloud."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "paren",
+          "text": "(tapping the hologram)"
+        },
+        {
+          "type": "dial",
+          "text": "Fog on a clear night? That's not weather. That's a machine."
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "dial",
+          "text": "And I know two guys who love machines that make trouble. Also hats. Very committed to hats."
+        },
+        {
+          "type": "action",
+          "text": "The suit tubes hiss open. Bravo pulls the green helmet on in one practiced shove. Tango snaps the gold visor down and points finger-guns at Pipi. Pipi finger-guns back with a tiny robot arm. A beat of pure kid-superhero joy."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO & TANGO"
+        },
+        {
+          "type": "dial",
+          "text": "Widgeteers, roll out!"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "act": "I",
+      "tc": "1:22–1:58",
+      "heading": "SCENE 04  EXT. CARNIVAL MIDWAY / BEHIND POPCORN CART - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "The midway is empty, lights still on, popcorn still warm. The Kindness Pumpkin waits like a friendly orange moon. Behind a yellow POPCORN CART: CHURRO, smug as a cat in a fedora, and MUFFIN, holding a rope tied to a bedsheet and a dented fog machine labeled SPOOK-O-MATIC 3000."
+        },
+        {
+          "type": "char",
+          "name": "CHURRO"
+        },
+        {
+          "type": "paren",
+          "text": "(whisper-shouting, which is not whispering)"
+        },
+        {
+          "type": "dial",
+          "text": "Phase one is working, Muffin. Everyone ran. Now we simply... borrow the pumpkin."
+        },
+        {
+          "type": "char",
+          "name": "MUFFIN"
+        },
+        {
+          "type": "dial",
+          "text": "Borrow? Like a library book? Do pumpkins have due dates?"
+        },
+        {
+          "type": "char",
+          "name": "CHURRO"
+        },
+        {
+          "type": "paren",
+          "text": "(deadpan)"
+        },
+        {
+          "type": "dial",
+          "text": "Yes. Due tonight. In our hideout. With the coins."
+        },
+        {
+          "type": "char",
+          "name": "MUFFIN"
+        },
+        {
+          "type": "dial",
+          "text": "Ooooh. Coins can buy so many churros. Wait. That's you. Can they buy muffins?"
+        },
+        {
+          "type": "char",
+          "name": "CHURRO"
+        },
+        {
+          "type": "dial",
+          "text": "Focus. I raise the ghost. You roll the pumpkin. A perfect plan."
+        },
+        {
+          "type": "action",
+          "text": "Churro yanks the fishing line. The bedsheet RISES like a cheap phantom above the pumpkin. Fog belches out, smelling faintly of burnt caramel. The pumpkin RATTLES from inside. Neither of them notices a tiny golden eye blink in the coin slot."
+        },
+        {
+          "type": "char",
+          "name": "MUFFIN"
+        },
+        {
+          "type": "paren",
+          "text": "(freezing)"
+        },
+        {
+          "type": "dial",
+          "text": "Uh, Churro? Did the pumpkin just... growl?"
+        },
+        {
+          "type": "char",
+          "name": "CHURRO"
+        },
+        {
+          "type": "dial",
+          "text": "Pumpkins do not growl. Ghosts growl. Which is us. Which is fake. MOVE."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "act": "II",
+      "tc": "1:58–2:18",
+      "heading": "SCENE 05  EXT. CARNIVAL GATE - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "The Widgeteers sweep in: Tango on the purple JETBIKE, Bravo on the glowing teal SCOOTER, Pipi as a third headlight. An empty ticket booth. A dropped stuffed bear. Spooky the way a birthday party is spooky after everyone goes home."
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "paren",
+          "text": "(trying to be cool, failing a little)"
+        },
+        {
+          "type": "dial",
+          "text": "Okay. Not gonna lie. A little spooky."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "Stay scientific. Eyes up. Coins first. Ghosts... later. Preferably never."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "dial",
+          "text": "Fog signature: bargain brand. Stinky."
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "act": "II",
+      "tc": "2:18–2:42",
+      "heading": "SCENE 06  EXT. MIDWAY / KINDNESS PUMPKIN - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "They approach the pumpkin. Bravo's wrist scanner hums a polite, unimpressed beep. Behind them — we stay on their BACKS — the bedsheet ghost RISES, fog curling around their boots. Tango whirls."
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "paren",
+          "text": "(voice cracking, then dropping two octaves on purpose)"
+        },
+        {
+          "type": "dial",
+          "text": "G-g-ghost! I mean. Ghost. Hi. We're professionals."
+        },
+        {
+          "type": "action",
+          "text": "The sheet snags on a popcorn box. A fishing line CATCHES the light like a spider thread. Bravo pinches it between two fingers, delighted."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "That's not ectoplasm. That's fishing line. Twelve-pound test. Very earthly."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "dial",
+          "text": "And a coupon still stuck to the fog machine."
+        },
+        {
+          "type": "action",
+          "text": "The 'ghost' panics and dives toward the bumper cars, sheet flapping like bad laundry."
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "act": "II",
+      "tc": "2:42–3:08",
+      "heading": "SCENE 07  EXT. BUMPER CARS - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "Churro slaps a stolen lever. Bumper cars SPARK awake and start a riderless rumba. The Widgeteers hop the rails. Muffin, wearing the sheet, stumbles into a spinning car and becomes a round white dreidel of regret."
+        },
+        {
+          "type": "char",
+          "name": "MUFFIN"
+        },
+        {
+          "type": "paren",
+          "text": "(muffled, spinning)"
+        },
+        {
+          "type": "dial",
+          "text": "I am a very dizzy ghost!"
+        },
+        {
+          "type": "char",
+          "name": "CHURRO (O.S.)"
+        },
+        {
+          "type": "dial",
+          "text": "Stop narrating, you walnut!"
+        },
+        {
+          "type": "action",
+          "text": "Pipi dives under the control box and YANKS a plug with her little arm. Cars freeze mid-bump. The sheet flies off the empty car and lands on a stuffed prize llama. The crooks are already waddling toward the Hall of Mirrors."
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "dial",
+          "text": "Hall of Mirrors. Of course. Because running in a straight line is too honest."
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "act": "II",
+      "tc": "3:08–3:32",
+      "heading": "SCENE 08  INT. HALL OF MIRRORS - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "Wacky glass. Hero suits warp into noodle-Bravo and basketball-Tango. Twenty MUFFINS waddle in twenty directions. Pipi paints a teal scan-line across the floor. One trail of popcorn kernels leads to the real one."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "Real burglars leave real footprints. Ghosts don't eat popcorn. Also ghosts don't exist."
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "paren",
+          "text": "(scooping a kernel)"
+        },
+        {
+          "type": "dial",
+          "text": "This one has butter. Very haunted butter."
+        },
+        {
+          "type": "action",
+          "text": "They burst out the EXIT into night air. Down the midway, two silhouettes are trying — and failing — to lift a pumpkin the size of a small car."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "act": "III",
+      "tc": "3:32–4:12",
+      "heading": "SCENE 09  EXT. KINDNESS PUMPKIN - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "Churro heaves. Muffin heaves. The pumpkin does not heave. Muffin sits on it to 'push with his sit.' The pedestal TIPS. The Kindness Pumpkin ROLLS — a giant orange boulder thundering down the midway. Coins jingle a panic song."
+        },
+        {
+          "type": "char",
+          "name": "MUFFIN"
+        },
+        {
+          "type": "dial",
+          "text": "The library book is escaping!"
+        },
+        {
+          "type": "char",
+          "name": "CHURRO"
+        },
+        {
+          "type": "dial",
+          "text": "That is not how libraries work!"
+        },
+        {
+          "type": "action",
+          "text": "Chase. Tracking alongside the pumpkin. Tango bounce-kicks a parked bumper car into a soft stop. Bravo lassos the stem with a prize-booth rope. The pumpkin kisses the Ferris wheel base and STOPS. The bedsheet settles over Muffin like a failed magic trick."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "paren",
+          "text": "(grabbing the sheet)"
+        },
+        {
+          "type": "dial",
+          "text": "Let's see who our phantom really is..."
+        },
+        {
+          "type": "action",
+          "text": "YANK. MUFFIN blinks, beanie crooked, mask askew. CHURRO tries to sneak away with a fistful of spilled coins. Pipi MAGNET-BEEPS. The coins leap into her little tray like trained fish."
+        },
+        {
+          "type": "char",
+          "name": "CHURRO"
+        },
+        {
+          "type": "dial",
+          "text": "It would have worked if the pumpkin wasn't so... pumpkin-y!"
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "dial",
+          "text": "You tried to steal donations for the petting zoo."
+        },
+        {
+          "type": "char",
+          "name": "MUFFIN"
+        },
+        {
+          "type": "paren",
+          "text": "(genuinely crushed)"
+        },
+        {
+          "type": "dial",
+          "text": "I didn't know the zoo was pets. I thought it was... zoo-coins. For snacks."
+        },
+        {
+          "type": "action",
+          "text": "They hog-tie the crooks to the popcorn cart with stuffed-animal prize strings. A plush llama now guards Churro's fedora. Bravo plants his fists on his hips, satisfied."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "No ghosts. Just two very loud, very caught crooks."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "act": "III",
+      "tc": "4:12–4:48",
+      "heading": "SCENE 10  EXT. KINDNESS PUMPKIN / FERRIS WHEEL - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "A soft HOOOOOT. A small white figure lifts off the pumpkin lid and drifts, cape fluttering. Everyone freezes. Even Churro. Especially Muffin."
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "paren",
+          "text": "(tiny voice)"
+        },
+        {
+          "type": "dial",
+          "text": "Uh, Bravo? You said no ghosts."
+        },
+        {
+          "type": "action",
+          "text": "Pipi throws a gentle spotlight. The figure lands on the pumpkin's stem. It is HOOT — a tiny white barn owl tangled in a magician's cape from the prize booth, two poked eye-holes making her look like the world's shyest baby ghost."
+        },
+        {
+          "type": "char",
+          "name": "PIPI"
+        },
+        {
+          "type": "dial",
+          "text": "Lifeform: owl. Mood: shy. Last known address: pumpkin."
+        },
+        {
+          "type": "action",
+          "text": "Bravo lifts the cape as if it were a blanket. Under the lid: a nest of raffle tickets and the pumpkin's warm night-bulb. Hoot blinks. Bravo blinks back, scientist melted."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "She made a nest in the Kindness Pumpkin. The rattle was coins hitting her bedtime."
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "paren",
+          "text": "(soft, grinning)"
+        },
+        {
+          "type": "dial",
+          "text": "Aw. The Ghost of Glow-A-Lot was just hungry for a nap."
+        },
+        {
+          "type": "action",
+          "text": "Hoot hop-hops onto Tango's gold helmet and sits like a feathery siren."
+        },
+        {
+          "type": "char",
+          "name": "MUFFIN"
+        },
+        {
+          "type": "dial",
+          "text": "Can we keep her? She can be Ghost... Junior."
+        },
+        {
+          "type": "char",
+          "name": "CHURRO"
+        },
+        {
+          "type": "dial",
+          "text": "We are literally tied to a popcorn cart."
+        },
+        {
+          "type": "action",
+          "text": "Carnival folks flood back, laughing now. A kind PETTING-ZOO KEEPER lifts Hoot like a cupcake. Kids drop coins again. The pumpkin's painted smile seems, somehow, even friendlier."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "act": "III",
+      "tc": "4:48–5:00",
+      "heading": "SCENE 11  EXT. FERRIS WHEEL - NIGHT",
+      "blocks": [
+        {
+          "type": "action",
+          "text": "The Widgeteers ride the Ferris wheel, city lights below. Pipi matches HOOT in a little loop-the-loop beside the gondola. The midway is alive again. Down below, Muffin and Churro wait for actual police, still wearing a llama."
+        },
+        {
+          "type": "char",
+          "name": "TANGO"
+        },
+        {
+          "type": "dial",
+          "text": "So the scary thing was a sleepy owl and two guys who can't lift a pumpkin."
+        },
+        {
+          "type": "char",
+          "name": "BRAVO"
+        },
+        {
+          "type": "dial",
+          "text": "Most mysteries are just someone needing help. Or a snack."
+        },
+        {
+          "type": "char",
+          "name": "MUFFIN (O.S.)"
+        },
+        {
+          "type": "paren",
+          "text": "(from very far below)"
+        },
+        {
+          "type": "dial",
+          "text": "I still need a snack!"
+        },
+        {
+          "type": "action",
+          "text": "They laugh. The wheel carries them up into gold-purple night. Pipi's visor draws a tiny heart. FADE OUT."
+        },
+        {
+          "type": "action",
+          "text": "THE END"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "scene": "01",
+      "tc": "0:00",
+      "tc_in": "00:00:00",
+      "tc_out": "00:00:04",
+      "dur": 4,
+      "size": "EWS",
+      "title": "Carnival from behind the Ferris wheel",
+      "camera": "High crane parked BEHIND the Ferris wheel. The wheel fills the left foreground as a dark lace silhouette. We look WITH it down into the midway. Slow drift downward. Do not show a postcard-flat establishing poster.",
+      "action": "Night autumn carnival seen through Ferris wheel spokes, gold-purple lights, tiny people, Kindness Pumpkin glowing in the distance like a hearth.",
+      "dialogue": "",
+      "lock_ids": [
+        "carnival",
+        "pumpkin"
+      ],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: High crane parked BEHIND the Ferris wheel. The wheel fills the left foreground as a dark lace silhouette. We look WITH it down into the midway. Slow drift downward. Do not show a postcard-flat establishing poster. WHAT'S ON SCREEN: Night autumn carnival seen through Ferris wheel spokes, gold-purple lights, tiny people, Kindness Pumpkin glowing in the distance like a hearth. IDENTITY LOCKS: Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. No photo plate for this subject — follow the written lock.",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S02",
+      "scene": "01",
+      "tc": "0:04",
+      "tc_in": "00:00:04",
+      "tc_out": "00:00:08",
+      "dur": 4,
+      "size": "WS",
+      "title": "Push through the Glow-A-Lot arch",
+      "camera": "Steadicam at a kid's eye-line, moving UNDER and through the wooden entrance arch. The camera is slightly behind a family walking in, so we see their backs and the carnival opening like a curtain.",
+      "action": "Wooden arch GLOW-A-LOT CARNIVAL — FALL FEST, fairy lights, fallen leaves, cotton-candy stall to the right, calliope in the deep background.",
+      "dialogue": "",
+      "lock_ids": [
+        "carnival"
+      ],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Steadicam at a kid's eye-line, moving UNDER and through the wooden entrance arch. The camera is slightly behind a family walking in, so we see their backs and the carnival opening like a curtain. WHAT'S ON SCREEN: Wooden arch GLOW-A-LOT CARNIVAL — FALL FEST, fairy lights, fallen leaves, cotton-candy stall to the right, calliope in the deep background. IDENTITY LOCKS: Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. No photo plate for this subject — follow the written lock.",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S03",
+      "scene": "01",
+      "tc": "0:08",
+      "tc_in": "00:00:08",
+      "tc_out": "00:00:13",
+      "dur": 5,
+      "size": "OTS",
+      "title": "Coin drop, over the girl's shoulder",
+      "camera": "Classic over-the-shoulder: camera sits on the little girl's right shoulder, her cheek and hair in soft-focus foreground. She is looking AWAY from us toward the pumpkin. Dad's hands hold her waist.",
+      "action": "Child dropping a gold coin toward the Kindness Pumpkin slot. Warm string lights. Friendly carved pumpkin smile filling the end of the frame.",
+      "dialogue": "(no line — coin clink)",
+      "lock_ids": [
+        "carnival",
+        "pumpkin"
+      ],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Classic over-the-shoulder: camera sits on the little girl's right shoulder, her cheek and hair in soft-focus foreground. She is looking AWAY from us toward the pumpkin. Dad's hands hold her waist. WHAT'S ON SCREEN: Child dropping a gold coin toward the Kindness Pumpkin slot. Warm string lights. Friendly carved pumpkin smile filling the end of the frame. IDENTITY LOCKS: Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. No photo plate for this subject — follow the written lock.",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S04",
+      "scene": "01",
+      "tc": "0:13",
+      "tc_in": "00:00:13",
+      "tc_out": "00:00:17",
+      "dur": 4,
+      "size": "ECU",
+      "title": "Slot rattles",
+      "camera": "Macro insert, camera almost inside the gold coin slot, slightly Dutch. We do not see a face. Light from within the pumpkin, a hint of downy white feather, then darkness. Cinematic insert, not a product shot.",
+      "action": "Gold coin disappearing into the pumpkin slot, rattling echo, one tiny pale feather drifting out.",
+      "dialogue": "",
+      "lock_ids": [
+        "pumpkin"
+      ],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Macro insert, camera almost inside the gold coin slot, slightly Dutch. We do not see a face. Light from within the pumpkin, a hint of downy white feather, then darkness. Cinematic insert, not a product shot. WHAT'S ON SCREEN: Gold coin disappearing into the pumpkin slot, rattling echo, one tiny pale feather drifting out. IDENTITY LOCKS: KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. No photo plate for this subject — follow the written lock.",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S05",
+      "scene": "01",
+      "tc": "0:17",
+      "tc_in": "00:00:17",
+      "tc_out": "00:00:22",
+      "dur": 5,
+      "size": "MS",
+      "title": "Kid spots the pale shape",
+      "camera": "Profile two-shot. The carnival kid is in profile looking UP and LEFT into the sky, not at camera. Dad behind him, also in profile. Background: Ferris wheel with a pale sheet-shape sliding behind a gondola.",
+      "action": "Child pointing up, whispering, father forcing a smile. Pale flutter near the wheel. Fog, not horror.",
+      "dialogue": "CARNIVAL KID: \"Did you see that? The Ghost of Glow-A-Lot!\"",
+      "lock_ids": [
+        "carnival"
+      ],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Profile two-shot. The carnival kid is in profile looking UP and LEFT into the sky, not at camera. Dad behind him, also in profile. Background: Ferris wheel with a pale sheet-shape sliding behind a gondola. WHAT'S ON SCREEN: Child pointing up, whispering, father forcing a smile. Pale flutter near the wheel. Fog, not horror. IDENTITY LOCKS: Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. No photo plate for this subject — follow the written lock.",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S06",
+      "scene": "01",
+      "tc": "0:22",
+      "tc_in": "00:00:22",
+      "tc_out": "00:00:27",
+      "dur": 5,
+      "size": "WS",
+      "title": "Sheet-whoosh over the pumpkin",
+      "camera": "Low angle from behind the pumpkin pedestal so the pumpkin's back/stem dominates the foreground. A white sheet-shape streaks OVER us toward deep fog. Calliope in bokeh.",
+      "action": "White fluttering sheet passing over the Kindness Pumpkin, fog, empty midway starting to thin out.",
+      "dialogue": "",
+      "lock_ids": [
+        "carnival",
+        "pumpkin"
+      ],
+      "ref_ids": [],
+      "refs": [],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Low angle from behind the pumpkin pedestal so the pumpkin's back/stem dominates the foreground. A white sheet-shape streaks OVER us toward deep fog. Calliope in bokeh. WHAT'S ON SCREEN: White fluttering sheet passing over the Kindness Pumpkin, fog, empty midway starting to thin out. IDENTITY LOCKS: Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. No photo plate for this subject — follow the written lock.",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S07",
+      "scene": "02",
+      "tc": "0:27",
+      "tc_in": "00:00:27",
+      "tc_out": "00:00:33",
+      "dur": 6,
+      "size": "WS",
+      "title": "Tango's room from behind the chair",
+      "camera": "Camera in the bedroom doorway, slightly high. We see TANGO FROM BEHIND at his desk, cap brim, hoodie back, basketball in his right hand. Tablet glows. Match the bedroom layout exactly.",
+      "action": "Tango civilian sitting at the wooden desk in his blue gear-wallpaper room at night, watching news, not posing.",
+      "dialogue": "",
+      "lock_ids": [
+        "tango_civ",
+        "tango_room"
+      ],
+      "ref_ids": [
+        "tango_civ",
+        "tango_room"
+      ],
+      "refs": [
+        "Characters/tango_civilian.png",
+        "Locations/tango_badroom.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Camera in the bedroom doorway, slightly high. We see TANGO FROM BEHIND at his desk, cap brim, hoodie back, basketball in his right hand. Tablet glows. Match the bedroom layout exactly. WHAT'S ON SCREEN: Tango civilian sitting at the wooden desk in his blue gear-wallpaper room at night, watching news, not posing. IDENTITY LOCKS: TANGO civilian: 10-year-old Black Pixar boy, big brown eyes, light freckles, warm grin, white-and-brown trucker cap with a gold lightning-bolt logo, grey hoodie, blue pants, purple sneakers with light-blue straps, often holding an orange basketball. Tango's bedroom at night: blue wallpaper printed with white gears, two windows with blinds, round wall clock, wooden desk and chair, Captain Spark posters, rumpled bed with colorful quilt, orange basketball, skateboard, brown beanbag, rainbow checkered rug, warm lamp light. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/tango_civilian.png, Locations/tango_badroom.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S08",
+      "scene": "02",
+      "tc": "0:33",
+      "tc_in": "00:00:33",
+      "tc_out": "00:00:38",
+      "dur": 5,
+      "size": "CU",
+      "title": "News on the tablet",
+      "camera": "Over-the-shoulder insert: Tango's fingers and a slice of his cheek in the foreground, tablet screen in focus showing a reporter in front of a carnival pumpkin. We are looking at the screen, not at Tango's face.",
+      "action": "Tablet playing carnival ghost news, Kindness Pumpkin on screen, Tango's hand paused on a basketball.",
+      "dialogue": "REPORTER: \"...a floating white phantom circling the Kindness Pumpkin.\"",
+      "lock_ids": [
+        "tango_civ",
+        "pumpkin"
+      ],
+      "ref_ids": [
+        "tango_civ"
+      ],
+      "refs": [
+        "Characters/tango_civilian.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Over-the-shoulder insert: Tango's fingers and a slice of his cheek in the foreground, tablet screen in focus showing a reporter in front of a carnival pumpkin. We are looking at the screen, not at Tango's face. WHAT'S ON SCREEN: Tablet playing carnival ghost news, Kindness Pumpkin on screen, Tango's hand paused on a basketball. IDENTITY LOCKS: TANGO civilian: 10-year-old Black Pixar boy, big brown eyes, light freckles, warm grin, white-and-brown trucker cap with a gold lightning-bolt logo, grey hoodie, blue pants, purple sneakers with light-blue straps, often holding an orange basketball. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/tango_civilian.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S09",
+      "scene": "02",
+      "tc": "0:38",
+      "tc_in": "00:00:38",
+      "tc_out": "00:00:44",
+      "dur": 6,
+      "size": "MS",
+      "title": "Tango spins, three-quarter",
+      "camera": "The desk chair SWINGS. Camera is at 45 degrees, never square. Tango ends in a three-quarter view looking toward the communicator on the desk, mouth mid-shout, basketball hugged to his chest. Lamp rim-light on the cap.",
+      "action": "Tango civilian reacting to the news, wide eyes, cap, grey hoodie, blue room.",
+      "dialogue": "TANGO: \"Bravo. Bravo. BRAVO.\"",
+      "lock_ids": [
+        "tango_civ",
+        "tango_room"
+      ],
+      "ref_ids": [
+        "tango_civ",
+        "tango_room"
+      ],
+      "refs": [
+        "Characters/tango_civilian.png",
+        "Locations/tango_badroom.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: The desk chair SWINGS. Camera is at 45 degrees, never square. Tango ends in a three-quarter view looking toward the communicator on the desk, mouth mid-shout, basketball hugged to his chest. Lamp rim-light on the cap. WHAT'S ON SCREEN: Tango civilian reacting to the news, wide eyes, cap, grey hoodie, blue room. IDENTITY LOCKS: TANGO civilian: 10-year-old Black Pixar boy, big brown eyes, light freckles, warm grin, white-and-brown trucker cap with a gold lightning-bolt logo, grey hoodie, blue pants, purple sneakers with light-blue straps, often holding an orange basketball. Tango's bedroom at night: blue wallpaper printed with white gears, two windows with blinds, round wall clock, wooden desk and chair, Captain Spark posters, rumpled bed with colorful quilt, orange basketball, skateboard, brown beanbag, rainbow checkered rug, warm lamp light. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/tango_civilian.png, Locations/tango_badroom.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S10",
+      "scene": "02",
+      "tc": "0:44",
+      "tc_in": "00:00:44",
+      "tc_out": "00:00:52",
+      "dur": 8,
+      "size": "OTS",
+      "title": "Communicator two-shot",
+      "camera": "Over Tango's shoulder as he leans toward a hovering holo of Bravo. Tango's back and cap fill the left third. Bravo's civilian face lives inside the holo, small, lit practical. Split of two rooms, cinematic, not a Zoom screenshot.",
+      "action": "Tango in his bedroom talking to Bravo on a communicator hologram. Bravo civilian with glasses and curly red hair.",
+      "dialogue": "BRAVO: \"That is not a ghost, Tango. That is a problem.\"",
+      "lock_ids": [
+        "tango_civ",
+        "bravo_civ",
+        "tango_room"
+      ],
+      "ref_ids": [
+        "tango_civ",
+        "bravo_civ",
+        "tango_room"
+      ],
+      "refs": [
+        "Characters/tango_civilian.png",
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Locations/tango_badroom.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Over Tango's shoulder as he leans toward a hovering holo of Bravo. Tango's back and cap fill the left third. Bravo's civilian face lives inside the holo, small, lit practical. Split of two rooms, cinematic, not a Zoom screenshot. WHAT'S ON SCREEN: Tango in his bedroom talking to Bravo on a communicator hologram. Bravo civilian with glasses and curly red hair. IDENTITY LOCKS: TANGO civilian: 10-year-old Black Pixar boy, big brown eyes, light freckles, warm grin, white-and-brown trucker cap with a gold lightning-bolt logo, grey hoodie, blue pants, purple sneakers with light-blue straps, often holding an orange basketball. BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. Tango's bedroom at night: blue wallpaper printed with white gears, two windows with blinds, round wall clock, wooden desk and chair, Captain Spark posters, rumpled bed with colorful quilt, orange basketball, skateboard, brown beanbag, rainbow checkered rug, warm lamp light. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/tango_civilian.png, Characters/bravo_civilian.png, Characters/bravo_school.png, Locations/tango_badroom.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S11",
+      "scene": "03",
+      "tc": "0:52",
+      "tc_in": "00:00:52",
+      "tc_out": "00:00:58",
+      "dur": 6,
+      "size": "WS",
+      "title": "Entering the lab from behind",
+      "camera": "Wide from the lab stairs. Bravo and Tango are WALKING AWAY from camera into the room, civilian clothes, Pipi hovering ahead of them like a guide light. Suit tubes glow on the right. Do not line them up facing us.",
+      "action": "Secret lab, teal lights, two kids entering from behind, spherical white drone leading.",
+      "dialogue": "",
+      "lock_ids": [
+        "bravo_civ",
+        "tango_civ",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "tango_civ",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/tango_civilian.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Wide from the lab stairs. Bravo and Tango are WALKING AWAY from camera into the room, civilian clothes, Pipi hovering ahead of them like a guide light. Suit tubes glow on the right. Do not line them up facing us. WHAT'S ON SCREEN: Secret lab, teal lights, two kids entering from behind, spherical white drone leading. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. TANGO civilian: 10-year-old Black Pixar boy, big brown eyes, light freckles, warm grin, white-and-brown trucker cap with a gold lightning-bolt logo, grey hoodie, blue pants, purple sneakers with light-blue straps, often holding an orange basketball. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor, glass-top work table, two cylindrical suit tubes holding purple-gold and teal-green hero suits, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/tango_civilian.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S12",
+      "scene": "03",
+      "tc": "0:58",
+      "tc_in": "00:00:58",
+      "tc_out": "00:01:04",
+      "dur": 6,
+      "size": "MS",
+      "title": "Pipi at the hologram",
+      "camera": "Low side angle. Pipi hovers in profile in the foreground, one little arm pointing at a carnival map hologram. Bravo civilian is beyond her, out of focus, studying the map in three-quarter back view.",
+      "action": "Pipi presenting a holo-map of Glow-A-Lot, Bravo listening with his back partly to us.",
+      "dialogue": "PIPI: \"One giant pumpkin. Many coins. One very suspicious fog cloud.\"",
+      "lock_ids": [
+        "pipi",
+        "bravo_civ",
+        "lab",
+        "carnival"
+      ],
+      "ref_ids": [
+        "pipi",
+        "bravo_civ",
+        "lab"
+      ],
+      "refs": [
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Low side angle. Pipi hovers in profile in the foreground, one little arm pointing at a carnival map hologram. Bravo civilian is beyond her, out of focus, studying the map in three-quarter back view. WHAT'S ON SCREEN: Pipi presenting a holo-map of Glow-A-Lot, Bravo listening with his back partly to us. IDENTITY LOCKS: PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor, glass-top work table, two cylindrical suit tubes holding purple-gold and teal-green hero suits, orange-white computer kiosk, terrazzo floor. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Characters/bravo_civilian.png, Characters/bravo_school.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S13",
+      "scene": "03",
+      "tc": "1:04",
+      "tc_in": "00:01:04",
+      "tc_out": "00:01:10",
+      "dur": 6,
+      "size": "MCU",
+      "title": "Bravo's theory, profile",
+      "camera": "Strict profile close-up of Bravo civilian, glasses catching teal lab light, looking RIGHT at the hologram, not at us. Mouth mid-line. Soft lab bokeh.",
+      "action": "Bravo explaining the fog is a machine, inventor energy, not a poster smirk.",
+      "dialogue": "BRAVO: \"Fog on a clear night? That's not weather. That's a machine.\"",
+      "lock_ids": [
+        "bravo_civ",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Strict profile close-up of Bravo civilian, glasses catching teal lab light, looking RIGHT at the hologram, not at us. Mouth mid-line. Soft lab bokeh. WHAT'S ON SCREEN: Bravo explaining the fog is a machine, inventor energy, not a poster smirk. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor, glass-top work table, two cylindrical suit tubes holding purple-gold and teal-green hero suits, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_civilian.png, Characters/bravo_school.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S14",
+      "scene": "03",
+      "tc": "1:10",
+      "tc_in": "00:01:10",
+      "tc_out": "00:01:16",
+      "dur": 6,
+      "size": "MS",
+      "title": "Suit tubes hiss open",
+      "camera": "Camera beside the tubes, shooting along them. Bravo and Tango reach IN, mostly backs and reaching arms. Glass, teal and gold reflections. Motion, not a costume display.",
+      "action": "Hero suit tubes opening, kids grabbing helmets, lab practicals.",
+      "dialogue": "",
+      "lock_ids": [
+        "bravo_civ",
+        "tango_civ",
+        "bravo_hero",
+        "tango_hero",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_civ",
+        "tango_civ",
+        "bravo_hero",
+        "tango_hero",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_civilian.png",
+        "Characters/bravo_school.png",
+        "Characters/tango_civilian.png",
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Camera beside the tubes, shooting along them. Bravo and Tango reach IN, mostly backs and reaching arms. Glass, teal and gold reflections. Motion, not a costume display. WHAT'S ON SCREEN: Hero suit tubes opening, kids grabbing helmets, lab practicals. IDENTITY LOCKS: BRAVO civilian: 10-year-old Pixar boy, round cheeks, huge amber-brown eyes, thick black rectangular glasses, wild voluminous curly orange-red hair, white collared shirt, blue argyle knit vest with brown and tan diamonds, beige cream striped cuffed shorts, blue sneakers with orange stripes. TANGO civilian: 10-year-old Black Pixar boy, big brown eyes, light freckles, warm grin, white-and-brown trucker cap with a gold lightning-bolt logo, grey hoodie, blue pants, purple sneakers with light-blue straps, often holding an orange basketball. BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor, glass-top work table, two cylindrical suit tubes holding purple-gold and teal-green hero suits, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_civilian.png, Characters/bravo_school.png, Characters/tango_civilian.png, Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S15",
+      "scene": "03",
+      "tc": "1:16",
+      "tc_in": "00:01:16",
+      "tc_out": "00:01:22",
+      "dur": 6,
+      "size": "MS",
+      "title": "Visors down, off-center",
+      "camera": "Medium shot but FRAMED WRONG on purpose: Bravo hero on the left looking at Tango, Tango hero on the right looking at Bravo, both in three-quarter, visors snapping. Pipi between them as a teal spark. They do not face the lens.",
+      "action": "Widgeteers suited up, visors down, Pipi looping, ready to roll.",
+      "dialogue": "BRAVO & TANGO: \"Widgeteers, roll out!\"",
+      "lock_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "lab"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "lab"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Locations/lab01.png",
+        "Locations/lab02.png",
+        "Locations/lab03.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Medium shot but FRAMED WRONG on purpose: Bravo hero on the left looking at Tango, Tango hero on the right looking at Bravo, both in three-quarter, visors snapping. Pipi between them as a teal spark. They do not face the lens. WHAT'S ON SCREEN: Widgeteers suited up, visors down, Pipi looping, ready to roll. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Bravo's secret lab: compact high-tech underground garage, grey paneled walls, teal strip lights, black pipes, yellow-black hazard tape, curved holographic monitor, glass-top work table, two cylindrical suit tubes holding purple-gold and teal-green hero suits, orange-white computer kiosk, terrazzo floor. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Locations/lab01.png, Locations/lab02.png, Locations/lab03.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S16",
+      "scene": "04",
+      "tc": "1:22",
+      "tc_in": "00:01:22",
+      "tc_out": "00:01:28",
+      "dur": 6,
+      "size": "WS",
+      "title": "Empty midway, pumpkin waiting",
+      "camera": "Wide, camera low behind a popcorn box in the foreground (out of focus yellow cardboard). The Kindness Pumpkin sits mid-frame. Tiny silhouettes of Muffin and Churro crouch behind a cart in the deep right. Haunted-empty, still colorful.",
+      "action": "Deserted carnival midway at night, Kindness Pumpkin glowing, crooks hiding.",
+      "dialogue": "",
+      "lock_ids": [
+        "carnival",
+        "pumpkin",
+        "muffin",
+        "churro"
+      ],
+      "ref_ids": [
+        "muffin",
+        "churro"
+      ],
+      "refs": [
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Wide, camera low behind a popcorn box in the foreground (out of focus yellow cardboard). The Kindness Pumpkin sits mid-frame. Tiny silhouettes of Muffin and Churro crouch behind a cart in the deep right. Haunted-empty, still colorful. WHAT'S ON SCREEN: Deserted carnival midway at night, Kindness Pumpkin glowing, crooks hiding. IDENTITY LOCKS: Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/churro_profile.jpg, Characters/churro_2.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S17",
+      "scene": "04",
+      "tc": "1:28",
+      "tc_in": "00:01:28",
+      "tc_out": "00:01:35",
+      "dur": 7,
+      "size": "OTS",
+      "title": "Crooks behind the popcorn cart",
+      "camera": "Camera among the popcorn boxes. We are behind CHURRO's coat and hat brim. MUFFIN is beyond him in three-quarter, hugging the fog machine. They look toward the pumpkin, not at us.",
+      "action": "Churro and Muffin hiding, Spook-o-Matic 3000, fishing line, Kindness Pumpkin out of focus beyond.",
+      "dialogue": "CHURRO: \"Now we simply... borrow the pumpkin.\"",
+      "lock_ids": [
+        "churro",
+        "muffin",
+        "pumpkin",
+        "carnival"
+      ],
+      "ref_ids": [
+        "churro",
+        "muffin",
+        "duo"
+      ],
+      "refs": [
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Camera among the popcorn boxes. We are behind CHURRO's coat and hat brim. MUFFIN is beyond him in three-quarter, hugging the fog machine. They look toward the pumpkin, not at us. WHAT'S ON SCREEN: Churro and Muffin hiding, Spook-o-Matic 3000, fishing line, Kindness Pumpkin out of focus beyond. IDENTITY LOCKS: CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/churro_profile.jpg, Characters/churro_2.jpg, Characters/muffin_churro.png, Characters/muffin_profile.jpg, Characters/muffin_2.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S18",
+      "scene": "04",
+      "tc": "1:35",
+      "tc_in": "00:01:35",
+      "tc_out": "00:01:41",
+      "dur": 6,
+      "size": "CU",
+      "title": "Muffin's library-book brain",
+      "camera": "Close three-quarter of Muffin, beanie, mask, looking slightly off-camera toward Churro (who is a fedora blur in the foreground). Confused hopeful face. Not a beauty headshot.",
+      "action": "Muffin asking if pumpkins have due dates, round face, black beanie and mask.",
+      "dialogue": "MUFFIN: \"Borrow? Like a library book? Do pumpkins have due dates?\"",
+      "lock_ids": [
+        "muffin",
+        "churro"
+      ],
+      "ref_ids": [
+        "muffin",
+        "churro"
+      ],
+      "refs": [
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Close three-quarter of Muffin, beanie, mask, looking slightly off-camera toward Churro (who is a fedora blur in the foreground). Confused hopeful face. Not a beauty headshot. WHAT'S ON SCREEN: Muffin asking if pumpkins have due dates, round face, black beanie and mask. IDENTITY LOCKS: MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/churro_profile.jpg, Characters/churro_2.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S19",
+      "scene": "04",
+      "tc": "1:41",
+      "tc_in": "00:01:41",
+      "tc_out": "00:01:47",
+      "dur": 6,
+      "size": "MCU",
+      "title": "Churro deadpan",
+      "camera": "Churro in three-quarter, looking down at Muffin, fedora brim cutting the top of frame, coat collar up. Smug. Rim-lit by carnival gold. He is not square to camera.",
+      "action": "Churro explaining the due date is tonight, skinny burglar, mustache, mask.",
+      "dialogue": "CHURRO: \"Yes. Due tonight. In our hideout. With the coins.\"",
+      "lock_ids": [
+        "churro",
+        "muffin"
+      ],
+      "ref_ids": [
+        "churro",
+        "muffin"
+      ],
+      "refs": [
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Churro in three-quarter, looking down at Muffin, fedora brim cutting the top of frame, coat collar up. Smug. Rim-lit by carnival gold. He is not square to camera. WHAT'S ON SCREEN: Churro explaining the due date is tonight, skinny burglar, mustache, mask. IDENTITY LOCKS: CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/churro_profile.jpg, Characters/churro_2.jpg, Characters/muffin_churro.png, Characters/muffin_profile.jpg, Characters/muffin_2.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S20",
+      "scene": "04",
+      "tc": "1:47",
+      "tc_in": "00:01:47",
+      "tc_out": "00:01:53",
+      "dur": 6,
+      "size": "WS",
+      "title": "Sheet rises on fishing line",
+      "camera": "Low wide. Pumpkin in foreground (we see its back). A white bedsheet lifts on a visible fishing line into the fog. Churro's arm in the deep background yanking. A pin-prick gold owl eye in the coin slot.",
+      "action": "Fake ghost sheet rising over the Kindness Pumpkin, fog machine smoke, carnival night.",
+      "dialogue": "",
+      "lock_ids": [
+        "pumpkin",
+        "carnival",
+        "churro",
+        "hoot"
+      ],
+      "ref_ids": [
+        "churro"
+      ],
+      "refs": [
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg",
+        "Characters/muffin_churro.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Low wide. Pumpkin in foreground (we see its back). A white bedsheet lifts on a visible fishing line into the fog. Churro's arm in the deep background yanking. A pin-prick gold owl eye in the coin slot. WHAT'S ON SCREEN: Fake ghost sheet rising over the Kindness Pumpkin, fog machine smoke, carnival night. IDENTITY LOCKS: KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. HOOT: a tiny fluffy white barn owl, oversized golden cartoon eyes, small peach beak, soft round body. Tangled in a too-big white magician's cape that reads as a baby ghost sheet, with two poked eye-holes. Cute, shy, never horror. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/churro_profile.jpg, Characters/churro_2.jpg, Characters/muffin_churro.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S21",
+      "scene": "04",
+      "tc": "1:53",
+      "tc_in": "00:01:53",
+      "tc_out": "00:01:58",
+      "dur": 5,
+      "size": "CU",
+      "title": "Did the pumpkin growl?",
+      "camera": "Muffin leans into frame from the left, profile, whispering toward the pumpkin which occupies the right. His mouth is a little 'o'. Cute scare, not horror.",
+      "action": "Muffin frightened by the pumpkin rattle, Churro unimpressed in the bokeh.",
+      "dialogue": "MUFFIN: \"Uh, Churro? Did the pumpkin just... growl?\"",
+      "lock_ids": [
+        "muffin",
+        "pumpkin",
+        "churro"
+      ],
+      "ref_ids": [
+        "muffin",
+        "churro"
+      ],
+      "refs": [
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Muffin leans into frame from the left, profile, whispering toward the pumpkin which occupies the right. His mouth is a little 'o'. Cute scare, not horror. WHAT'S ON SCREEN: Muffin frightened by the pumpkin rattle, Churro unimpressed in the bokeh. IDENTITY LOCKS: MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/churro_profile.jpg, Characters/churro_2.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S22",
+      "scene": "05",
+      "tc": "1:58",
+      "tc_in": "00:01:58",
+      "tc_out": "00:02:05",
+      "dur": 7,
+      "size": "WS",
+      "title": "Widgeteers arrive at the gate",
+      "camera": "Tracking from behind the vehicles as they enter the gate: Tango on the purple jetbike LEFT, Bravo on the teal scooter RIGHT, Pipi as a third lamp. We see helmet backs and taillights. Arch overhead.",
+      "action": "Heroes arriving at the empty carnival, jetbike and scooter, night.",
+      "dialogue": "",
+      "lock_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "carnival"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "jetbike",
+        "scooter"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "vehicles/jetbike_front.jpg",
+        "vehicles/scooter_front.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Tracking from behind the vehicles as they enter the gate: Tango on the purple jetbike LEFT, Bravo on the teal scooter RIGHT, Pipi as a third lamp. We see helmet backs and taillights. Arch overhead. WHAT'S ON SCREEN: Heroes arriving at the empty carnival, jetbike and scooter, night. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, vehicles/jetbike_front.jpg, vehicles/scooter_front.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S23",
+      "scene": "05",
+      "tc": "2:05",
+      "tc_in": "00:02:05",
+      "tc_out": "00:02:11",
+      "dur": 6,
+      "size": "OTS",
+      "title": "A little spooky",
+      "camera": "Over Bravo's green helmet shoulder. Tango hero is beyond, three-quarter, trying to look brave, empty ticket booth behind him. Pipi scans a dropped teddy bear in the dirt.",
+      "action": "Tango admitting it is spooky, Bravo facing the midway, Pipi scanning.",
+      "dialogue": "TANGO: \"Okay. Not gonna lie. A little spooky.\"",
+      "lock_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "carnival"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Over Bravo's green helmet shoulder. Tango hero is beyond, three-quarter, trying to look brave, empty ticket booth behind him. Pipi scans a dropped teddy bear in the dirt. WHAT'S ON SCREEN: Tango admitting it is spooky, Bravo facing the midway, Pipi scanning. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S24",
+      "scene": "06",
+      "tc": "2:11",
+      "tc_in": "00:02:11",
+      "tc_out": "00:02:17",
+      "dur": 6,
+      "size": "WS",
+      "title": "Walking toward the pumpkin, backs",
+      "camera": "Follow-cam behind two small superheroes walking AWAY from us down the midway. Pipi between their shoulders. The Kindness Pumpkin grows in frame. Classic kids-adventure blocking.",
+      "action": "Bravo and Tango in hero suits approaching the donation pumpkin from behind.",
+      "dialogue": "",
+      "lock_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "pumpkin",
+        "carnival"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Follow-cam behind two small superheroes walking AWAY from us down the midway. Pipi between their shoulders. The Kindness Pumpkin grows in frame. Classic kids-adventure blocking. WHAT'S ON SCREEN: Bravo and Tango in hero suits approaching the donation pumpkin from behind. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S25",
+      "scene": "06",
+      "tc": "2:17",
+      "tc_in": "00:02:17",
+      "tc_out": "00:02:23",
+      "dur": 6,
+      "size": "WS",
+      "title": "Ghost rises behind them",
+      "camera": "We STAY behind the heroes. The bedsheet ghost rises in the gap between their helmets, above the pumpkin. Tango's shoulders hitch. This is the anti-poster shot: we read the scare from their backs.",
+      "action": "Fake ghost appearing behind Bravo and Tango while they face the pumpkin.",
+      "dialogue": "TANGO: \"G-g-ghost! I mean. Ghost. Hi. We're professionals.\"",
+      "lock_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pumpkin",
+        "carnival"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: We STAY behind the heroes. The bedsheet ghost rises in the gap between their helmets, above the pumpkin. Tango's shoulders hitch. This is the anti-poster shot: we read the scare from their backs. WHAT'S ON SCREEN: Fake ghost appearing behind Bravo and Tango while they face the pumpkin. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S26",
+      "scene": "06",
+      "tc": "2:23",
+      "tc_in": "00:02:23",
+      "tc_out": "00:02:28",
+      "dur": 5,
+      "size": "ECU",
+      "title": "Fishing line catchlight",
+      "camera": "Insert. Bravo's gloved fingers pinch a glinting fishing line. Sheet fabric in the top of frame. Popcorn box snag. Scientific delight, not a product macro.",
+      "action": "Hero glove holding fishing line attached to the fake ghost sheet.",
+      "dialogue": "BRAVO: \"That's not ectoplasm. That's fishing line.\"",
+      "lock_ids": [
+        "bravo_hero"
+      ],
+      "ref_ids": [
+        "bravo_hero"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Insert. Bravo's gloved fingers pinch a glinting fishing line. Sheet fabric in the top of frame. Popcorn box snag. Scientific delight, not a product macro. WHAT'S ON SCREEN: Hero glove holding fishing line attached to the fake ghost sheet. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S27",
+      "scene": "06",
+      "tc": "2:28",
+      "tc_in": "00:02:28",
+      "tc_out": "00:02:34",
+      "dur": 6,
+      "size": "MS",
+      "title": "Ghost dives to bumper cars",
+      "camera": "Whip-pan feeling: sheet-ghost (Muffin inside) runs AWAY from camera toward bumper cars, fog trailing. Heroes in the foreground as helmet-edges only. Directional chase geography.",
+      "action": "Sheet-covered Muffin fleeing toward the bumper-car rink.",
+      "dialogue": "",
+      "lock_ids": [
+        "muffin",
+        "bravo_hero",
+        "tango_hero",
+        "carnival"
+      ],
+      "ref_ids": [
+        "muffin",
+        "bravo_hero",
+        "tango_hero"
+      ],
+      "refs": [
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Whip-pan feeling: sheet-ghost (Muffin inside) runs AWAY from camera toward bumper cars, fog trailing. Heroes in the foreground as helmet-edges only. Directional chase geography. WHAT'S ON SCREEN: Sheet-covered Muffin fleeing toward the bumper-car rink. IDENTITY LOCKS: MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S28",
+      "scene": "07",
+      "tc": "2:34",
+      "tc_in": "00:02:34",
+      "tc_out": "00:02:40",
+      "dur": 6,
+      "size": "High",
+      "title": "Bumper cars riderless rumba",
+      "camera": "High 45-degree angle over the rink. Cars spark and bump with no drivers. Heroes hop the rail in the lower third, small. Muffin-as-sheet is a white blob in one spinning car. Playground chaos, not a poster.",
+      "action": "Night bumper-car ride gone haywire, Pixar carnival, heroes entering the frame from below.",
+      "dialogue": "",
+      "lock_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "muffin",
+        "carnival"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "muffin"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: High 45-degree angle over the rink. Cars spark and bump with no drivers. Heroes hop the rail in the lower third, small. Muffin-as-sheet is a white blob in one spinning car. Playground chaos, not a poster. WHAT'S ON SCREEN: Night bumper-car ride gone haywire, Pixar carnival, heroes entering the frame from below. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S29",
+      "scene": "07",
+      "tc": "2:40",
+      "tc_in": "00:02:40",
+      "tc_out": "00:02:46",
+      "dur": 6,
+      "size": "MS",
+      "title": "Dizzy ghost Muffin",
+      "camera": "Camera mounted as if on the opposite bumper car, so Muffin in a sheet spins PAST us, round body, beanie visible under the sheet hem, mouth a wobble. Churro is a skinny smear yelling from the rail, back partly to us.",
+      "action": "Muffin stuck in a spinning bumper car under a ghost sheet, comic, not scary.",
+      "dialogue": "MUFFIN: \"I am a very dizzy ghost!\"",
+      "lock_ids": [
+        "muffin",
+        "churro"
+      ],
+      "ref_ids": [
+        "muffin",
+        "churro"
+      ],
+      "refs": [
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Camera mounted as if on the opposite bumper car, so Muffin in a sheet spins PAST us, round body, beanie visible under the sheet hem, mouth a wobble. Churro is a skinny smear yelling from the rail, back partly to us. WHAT'S ON SCREEN: Muffin stuck in a spinning bumper car under a ghost sheet, comic, not scary. IDENTITY LOCKS: MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/churro_profile.jpg, Characters/churro_2.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S30",
+      "scene": "07",
+      "tc": "2:46",
+      "tc_in": "00:02:46",
+      "tc_out": "00:02:52",
+      "dur": 6,
+      "size": "CU",
+      "title": "Pipi pulls the plug",
+      "camera": "Under-the-box angle. Pipi in profile yanks a chunky plug with her skinny arm, visor determined. Sparks. Hero boots in the background, out of focus.",
+      "action": "Pipi cutting power to the bumper cars, cute drone hero moment.",
+      "dialogue": "",
+      "lock_ids": [
+        "pipi",
+        "bravo_hero"
+      ],
+      "ref_ids": [
+        "pipi",
+        "bravo_hero"
+      ],
+      "refs": [
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Under-the-box angle. Pipi in profile yanks a chunky plug with her skinny arm, visor determined. Sparks. Hero boots in the background, out of focus. WHAT'S ON SCREEN: Pipi cutting power to the bumper cars, cute drone hero moment. IDENTITY LOCKS: PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S31",
+      "scene": "07",
+      "tc": "2:52",
+      "tc_in": "00:02:52",
+      "tc_out": "00:02:58",
+      "dur": 6,
+      "size": "WS",
+      "title": "Sheet on a prize llama",
+      "camera": "Wide as cars freeze. The empty sheet settles on a stuffed llama. Heroes seen from behind, looking toward the Hall of Mirrors whose entrance yawns in the deep background. Crooks are two distant hats.",
+      "action": "Aftermath of bumper-car gag, chase continuing to the Hall of Mirrors.",
+      "dialogue": "TANGO: \"Hall of Mirrors. Of course.\"",
+      "lock_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "carnival"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Wide as cars freeze. The empty sheet settles on a stuffed llama. Heroes seen from behind, looking toward the Hall of Mirrors whose entrance yawns in the deep background. Crooks are two distant hats. WHAT'S ON SCREEN: Aftermath of bumper-car gag, chase continuing to the Hall of Mirrors. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S32",
+      "scene": "08",
+      "tc": "2:58",
+      "tc_in": "00:02:58",
+      "tc_out": "00:03:05",
+      "dur": 7,
+      "size": "WS",
+      "title": "Infinite Muffins",
+      "camera": "Camera behind Bravo and Tango as they face a corridor of mirrors. We see their backs and, in the glass, twenty warped Muffins. The real Muffin is the only one leaving a popcorn trail. Play the depth, not a group portrait.",
+      "action": "Hall of mirrors, Widgeteers from behind, many Muffin reflections.",
+      "dialogue": "BRAVO: \"Ghosts don't eat popcorn. Also ghosts don't exist.\"",
+      "lock_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "muffin",
+        "pipi"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "muffin",
+        "pipi"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Camera behind Bravo and Tango as they face a corridor of mirrors. We see their backs and, in the glass, twenty warped Muffins. The real Muffin is the only one leaving a popcorn trail. Play the depth, not a group portrait. WHAT'S ON SCREEN: Hall of mirrors, Widgeteers from behind, many Muffin reflections. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S33",
+      "scene": "08",
+      "tc": "3:05",
+      "tc_in": "00:03:05",
+      "tc_out": "00:03:11",
+      "dur": 6,
+      "size": "Low",
+      "title": "Butter popcorn trail",
+      "camera": "Very low tracking along a line of popcorn kernels on black-and-white funhouse floor. In the distance, hero boots and Pipi's glow follow the trail. Tango's glove scoops one kernel at the end of the move.",
+      "action": "Insert trail of popcorn leading out of the Hall of Mirrors.",
+      "dialogue": "TANGO: \"This one has butter. Very haunted butter.\"",
+      "lock_ids": [
+        "tango_hero",
+        "pipi"
+      ],
+      "ref_ids": [
+        "tango_hero",
+        "pipi"
+      ],
+      "refs": [
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Very low tracking along a line of popcorn kernels on black-and-white funhouse floor. In the distance, hero boots and Pipi's glow follow the trail. Tango's glove scoops one kernel at the end of the move. WHAT'S ON SCREEN: Insert trail of popcorn leading out of the Hall of Mirrors. IDENTITY LOCKS: TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S34",
+      "scene": "09",
+      "tc": "3:11",
+      "tc_in": "00:03:11",
+      "tc_out": "00:03:17",
+      "dur": 6,
+      "size": "MS",
+      "title": "They cannot lift the pumpkin",
+      "camera": "Side-on medium. Churro and Muffin strain against the Kindness Pumpkin, bodies leaning, faces in profile. The pumpkin does not move. Comedy of weight. Pedestal starting to tip.",
+      "action": "Two burglars failing to steal a giant pumpkin piggy-bank.",
+      "dialogue": "",
+      "lock_ids": [
+        "churro",
+        "muffin",
+        "pumpkin",
+        "carnival"
+      ],
+      "ref_ids": [
+        "churro",
+        "muffin",
+        "duo"
+      ],
+      "refs": [
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Side-on medium. Churro and Muffin strain against the Kindness Pumpkin, bodies leaning, faces in profile. The pumpkin does not move. Comedy of weight. Pedestal starting to tip. WHAT'S ON SCREEN: Two burglars failing to steal a giant pumpkin piggy-bank. IDENTITY LOCKS: CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/churro_profile.jpg, Characters/churro_2.jpg, Characters/muffin_churro.png, Characters/muffin_profile.jpg, Characters/muffin_2.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S35",
+      "scene": "09",
+      "tc": "3:17",
+      "tc_in": "00:03:17",
+      "tc_out": "00:03:23",
+      "dur": 6,
+      "size": "WS",
+      "title": "Pumpkin boulder rolls",
+      "camera": "Tracking shot DOLLYING beside the rolling pumpkin as it thunders down the midway. Muffin runs after it in the background, tiny legs. Lights streak. Heroic cartoon physics, kid-safe.",
+      "action": "Giant Kindness Pumpkin rolling like a boulder, coins jingling, carnival booths whipping by.",
+      "dialogue": "MUFFIN: \"The library book is escaping!\"",
+      "lock_ids": [
+        "pumpkin",
+        "muffin",
+        "churro",
+        "carnival"
+      ],
+      "ref_ids": [
+        "muffin",
+        "churro"
+      ],
+      "refs": [
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Tracking shot DOLLYING beside the rolling pumpkin as it thunders down the midway. Muffin runs after it in the background, tiny legs. Lights streak. Heroic cartoon physics, kid-safe. WHAT'S ON SCREEN: Giant Kindness Pumpkin rolling like a boulder, coins jingling, carnival booths whipping by. IDENTITY LOCKS: KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/churro_profile.jpg, Characters/churro_2.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S36",
+      "scene": "09",
+      "tc": "3:23",
+      "tc_in": "00:03:23",
+      "tc_out": "00:03:29",
+      "dur": 6,
+      "size": "MS",
+      "title": "Tango intercept",
+      "camera": "Camera low in front of Tango hero as he bounce-kicks a bumper car into the pumpkin's path — but we are slightly to his side so his face is three-quarter, body in action, not a power-pose poster. Bravo's rope enters from the right.",
+      "action": "Tango stopping the rolling pumpkin with carnival physics, Bravo lassoing the stem.",
+      "dialogue": "",
+      "lock_ids": [
+        "tango_hero",
+        "bravo_hero",
+        "pumpkin"
+      ],
+      "ref_ids": [
+        "tango_hero",
+        "bravo_hero"
+      ],
+      "refs": [
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Camera low in front of Tango hero as he bounce-kicks a bumper car into the pumpkin's path — but we are slightly to his side so his face is three-quarter, body in action, not a power-pose poster. Bravo's rope enters from the right. WHAT'S ON SCREEN: Tango stopping the rolling pumpkin with carnival physics, Bravo lassoing the stem. IDENTITY LOCKS: TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S37",
+      "scene": "09",
+      "tc": "3:29",
+      "tc_in": "00:03:29",
+      "tc_out": "00:03:35",
+      "dur": 6,
+      "size": "MCU",
+      "title": "Unmask",
+      "camera": "Over Bravo's shoulder as his hand YANKS the sheet. Muffin's round face is revealed three-quarter, beanie crooked, blinking. Ferris wheel bokeh behind. Classic Scooby unmask, Pixar-soft.",
+      "action": "Bravo hero unmasking Muffin the burglar under a ghost sheet.",
+      "dialogue": "BRAVO: \"Let's see who our phantom really is...\"",
+      "lock_ids": [
+        "bravo_hero",
+        "muffin",
+        "churro"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "muffin",
+        "churro"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Over Bravo's shoulder as his hand YANKS the sheet. Muffin's round face is revealed three-quarter, beanie crooked, blinking. Ferris wheel bokeh behind. Classic Scooby unmask, Pixar-soft. WHAT'S ON SCREEN: Bravo hero unmasking Muffin the burglar under a ghost sheet. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/churro_profile.jpg, Characters/churro_2.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S38",
+      "scene": "09",
+      "tc": "3:35",
+      "tc_in": "00:03:35",
+      "tc_out": "00:03:41",
+      "dur": 6,
+      "size": "CU",
+      "title": "Pipi yoinks the coins",
+      "camera": "Churro in profile clutching coins, looking back over his shoulder (we see his cheek and fedora). Pipi in the foreground MAGNET-pulls the coins into a tray, visor smug. Coins as sparkles mid-air.",
+      "action": "Pipi retrieving stolen petting-zoo coins from Churro.",
+      "dialogue": "CHURRO: \"It would have worked if the pumpkin wasn't so pumpkin-y!\"",
+      "lock_ids": [
+        "pipi",
+        "churro"
+      ],
+      "ref_ids": [
+        "pipi",
+        "churro"
+      ],
+      "refs": [
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg",
+        "Characters/muffin_churro.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Churro in profile clutching coins, looking back over his shoulder (we see his cheek and fedora). Pipi in the foreground MAGNET-pulls the coins into a tray, visor smug. Coins as sparkles mid-air. WHAT'S ON SCREEN: Pipi retrieving stolen petting-zoo coins from Churro. IDENTITY LOCKS: PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Characters/churro_profile.jpg, Characters/churro_2.jpg, Characters/muffin_churro.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S39",
+      "scene": "09",
+      "tc": "3:41",
+      "tc_in": "00:03:41",
+      "tc_out": "00:03:48",
+      "dur": 7,
+      "size": "WS",
+      "title": "Tied to the popcorn cart",
+      "camera": "Wide, slightly high. Muffin and Churro sit hog-tied to the popcorn cart with stuffed-animal strings. A plush llama wears Churro's fedora. Widgeteers stand with their BACKS partly to us, looking at the crooks. Pipi boops Muffin's nose.",
+      "action": "Crooks captured at the carnival, heroes from behind, comic defeat.",
+      "dialogue": "BRAVO: \"No ghosts. Just two very loud, very caught crooks.\"",
+      "lock_ids": [
+        "muffin",
+        "churro",
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "carnival"
+      ],
+      "ref_ids": [
+        "muffin",
+        "churro",
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "duo"
+      ],
+      "refs": [
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg",
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Wide, slightly high. Muffin and Churro sit hog-tied to the popcorn cart with stuffed-animal strings. A plush llama wears Churro's fedora. Widgeteers stand with their BACKS partly to us, looking at the crooks. Pipi boops Muffin's nose. WHAT'S ON SCREEN: Crooks captured at the carnival, heroes from behind, comic defeat. IDENTITY LOCKS: MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/churro_profile.jpg, Characters/churro_2.jpg, Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S40",
+      "scene": "10",
+      "tc": "3:48",
+      "tc_in": "00:03:48",
+      "tc_out": "00:03:54",
+      "dur": 6,
+      "size": "WS",
+      "title": "The second ghost lifts off",
+      "camera": "Wide freeze. Everyone in the frame looks UP and AWAY from camera toward a small white cape-shape lifting off the pumpkin lid. Faces in profile/three-quarter. Quiet, wondrous, not jump-scare horror.",
+      "action": "Tiny white figure rising from the Kindness Pumpkin, heroes and crooks watching.",
+      "dialogue": "TANGO: \"Uh, Bravo? You said no ghosts.\"",
+      "lock_ids": [
+        "hoot",
+        "pumpkin",
+        "bravo_hero",
+        "tango_hero",
+        "muffin",
+        "churro",
+        "pipi"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "muffin",
+        "churro",
+        "pipi"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Wide freeze. Everyone in the frame looks UP and AWAY from camera toward a small white cape-shape lifting off the pumpkin lid. Faces in profile/three-quarter. Quiet, wondrous, not jump-scare horror. WHAT'S ON SCREEN: Tiny white figure rising from the Kindness Pumpkin, heroes and crooks watching. IDENTITY LOCKS: HOOT: a tiny fluffy white barn owl, oversized golden cartoon eyes, small peach beak, soft round body. Tangled in a too-big white magician's cape that reads as a baby ghost sheet, with two poked eye-holes. Cute, shy, never horror. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/churro_profile.jpg, Characters/churro_2.jpg, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S41",
+      "scene": "10",
+      "tc": "3:54",
+      "tc_in": "00:03:54",
+      "tc_out": "00:04:01",
+      "dur": 7,
+      "size": "MCU",
+      "title": "Hoot revealed",
+      "camera": "Three-quarter close of HOOT perched on the pumpkin stem, cape like a too-big ghost sheet, golden owl eyes, Pipi's teal spotlight from off-camera left. Soft beauty light, children's film, never scary.",
+      "action": "Tiny white barn owl in a magician's cape looking like a baby ghost, adorable.",
+      "dialogue": "PIPI: \"Lifeform: owl. Mood: shy. Last known address: pumpkin.\"",
+      "lock_ids": [
+        "hoot",
+        "pumpkin",
+        "pipi"
+      ],
+      "ref_ids": [
+        "pipi"
+      ],
+      "refs": [
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Three-quarter close of HOOT perched on the pumpkin stem, cape like a too-big ghost sheet, golden owl eyes, Pipi's teal spotlight from off-camera left. Soft beauty light, children's film, never scary. WHAT'S ON SCREEN: Tiny white barn owl in a magician's cape looking like a baby ghost, adorable. IDENTITY LOCKS: HOOT: a tiny fluffy white barn owl, oversized golden cartoon eyes, small peach beak, soft round body. Tangled in a too-big white magician's cape that reads as a baby ghost sheet, with two poked eye-holes. Cute, shy, never horror. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S42",
+      "scene": "10",
+      "tc": "4:01",
+      "tc_in": "00:04:01",
+      "tc_out": "00:04:07",
+      "dur": 6,
+      "size": "OTS",
+      "title": "Nest in the lid",
+      "camera": "Over Bravo's helmet as he lifts the pumpkin lid. Nested raffle tickets and a warm bulb. Hoot's blurry wing in the foreground. Intimate, from behind the hero.",
+      "action": "Inside of the Kindness Pumpkin lid, owl nest of tickets, Bravo discovering the truth.",
+      "dialogue": "BRAVO: \"The rattle was coins hitting her bedtime.\"",
+      "lock_ids": [
+        "bravo_hero",
+        "hoot",
+        "pumpkin"
+      ],
+      "ref_ids": [
+        "bravo_hero"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Over Bravo's helmet as he lifts the pumpkin lid. Nested raffle tickets and a warm bulb. Hoot's blurry wing in the foreground. Intimate, from behind the hero. WHAT'S ON SCREEN: Inside of the Kindness Pumpkin lid, owl nest of tickets, Bravo discovering the truth. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. HOOT: a tiny fluffy white barn owl, oversized golden cartoon eyes, small peach beak, soft round body. Tangled in a too-big white magician's cape that reads as a baby ghost sheet, with two poked eye-holes. Cute, shy, never horror. KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S43",
+      "scene": "10",
+      "tc": "4:07",
+      "tc_in": "00:04:07",
+      "tc_out": "00:04:13",
+      "dur": 6,
+      "size": "MS",
+      "title": "Hoot on Tango's helmet",
+      "camera": "Side view. Tango hero in profile, gold helmet, Hoot sitting on top like a feathery hat. Bravo in the background, three-quarter, melted-scientist smile. Warm string lights.",
+      "action": "Owl perched on Tango's gold helmet, Bravo smiling, carnival night.",
+      "dialogue": "TANGO: \"The Ghost of Glow-A-Lot was just hungry for a nap.\"",
+      "lock_ids": [
+        "tango_hero",
+        "hoot",
+        "bravo_hero"
+      ],
+      "ref_ids": [
+        "tango_hero",
+        "bravo_hero"
+      ],
+      "refs": [
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Side view. Tango hero in profile, gold helmet, Hoot sitting on top like a feathery hat. Bravo in the background, three-quarter, melted-scientist smile. Warm string lights. WHAT'S ON SCREEN: Owl perched on Tango's gold helmet, Bravo smiling, carnival night. IDENTITY LOCKS: TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. HOOT: a tiny fluffy white barn owl, oversized golden cartoon eyes, small peach beak, soft round body. Tangled in a too-big white magician's cape that reads as a baby ghost sheet, with two poked eye-holes. Cute, shy, never horror. BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S44",
+      "scene": "10",
+      "tc": "4:13",
+      "tc_in": "00:04:13",
+      "tc_out": "00:04:19",
+      "dur": 6,
+      "size": "MCU",
+      "title": "Ghost Junior",
+      "camera": "Muffin and Churro tied in the foreground, three-quarter, looking toward Hoot off-screen. Muffin hopeful, Churro done with life. Llama fedora in frame. Comedy two-shot, not a lineup.",
+      "action": "Captured burglars reacting to the owl, Muffin wanting to keep her.",
+      "dialogue": "MUFFIN: \"Can we keep her? She can be Ghost... Junior.\"",
+      "lock_ids": [
+        "muffin",
+        "churro",
+        "hoot"
+      ],
+      "ref_ids": [
+        "muffin",
+        "churro"
+      ],
+      "refs": [
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png",
+        "Characters/churro_profile.jpg",
+        "Characters/churro_2.jpg"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Muffin and Churro tied in the foreground, three-quarter, looking toward Hoot off-screen. Muffin hopeful, Churro done with life. Llama fedora in frame. Comedy two-shot, not a lineup. WHAT'S ON SCREEN: Captured burglars reacting to the owl, Muffin wanting to keep her. IDENTITY LOCKS: MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. CHURRO: tall skinny Pixar burglar, long narrow face, pencil mustache, black eye-mask, dark brown-black fedora with a wide brim, long black overcoat, white collared shirt, long thin legs, brown shoes. Thinks he is a genius. HOOT: a tiny fluffy white barn owl, oversized golden cartoon eyes, small peach beak, soft round body. Tangled in a too-big white magician's cape that reads as a baby ghost sheet, with two poked eye-holes. Cute, shy, never horror. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png, Characters/churro_profile.jpg, Characters/churro_2.jpg",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S45",
+      "scene": "10",
+      "tc": "4:19",
+      "tc_in": "00:04:19",
+      "tc_out": "00:04:26",
+      "dur": 7,
+      "size": "WS",
+      "title": "The midway comes back",
+      "camera": "Wide from behind the pumpkin. Families return, kids dropping coins, petting-zoo keeper receiving Hoot (we see the keeper's back). Heroes small in the right third. Life restored, golden light.",
+      "action": "Carnival crowd returning, donations flowing, owl going home, Widgeteers watching from the side.",
+      "dialogue": "",
+      "lock_ids": [
+        "pumpkin",
+        "hoot",
+        "bravo_hero",
+        "tango_hero",
+        "carnival"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Wide from behind the pumpkin. Families return, kids dropping coins, petting-zoo keeper receiving Hoot (we see the keeper's back). Heroes small in the right third. Life restored, golden light. WHAT'S ON SCREEN: Carnival crowd returning, donations flowing, owl going home, Widgeteers watching from the side. IDENTITY LOCKS: KINDNESS PUMPKIN: giant cartoon pumpkin piggy-bank, warm orange, friendly carved smile, gold coin-slot on top, string lights, wooden pedestal, banner reading 'KINDNESS PUMPKIN — COINS FOR THE PETTING ZOO!'. HOOT: a tiny fluffy white barn owl, oversized golden cartoon eyes, small peach beak, soft round body. Tangled in a too-big white magician's cape that reads as a baby ghost sheet, with two poked eye-holes. Cute, shy, never horror. BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S46",
+      "scene": "11",
+      "tc": "4:26",
+      "tc_in": "00:04:26",
+      "tc_out": "00:04:34",
+      "dur": 8,
+      "size": "MS",
+      "title": "Ferris wheel gondola",
+      "camera": "Inside/beside the gondola. Bravo and Tango sit in three-quarter, looking OUT at the town, not at us. Pipi and Hoot fly a loop outside the bar. City bokeh. Gentle. End-of-episode warmth.",
+      "action": "Widgeteers riding the Ferris wheel at night, drone and owl flying beside them.",
+      "dialogue": "TANGO: \"So the scary thing was a sleepy owl and two guys who can't lift a pumpkin.\"",
+      "lock_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "hoot",
+        "carnival"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Inside/beside the gondola. Bravo and Tango sit in three-quarter, looking OUT at the town, not at us. Pipi and Hoot fly a loop outside the bar. City bokeh. Gentle. End-of-episode warmth. WHAT'S ON SCREEN: Widgeteers riding the Ferris wheel at night, drone and owl flying beside them. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. HOOT: a tiny fluffy white barn owl, oversized golden cartoon eyes, small peach beak, soft round body. Tangled in a too-big white magician's cape that reads as a baby ghost sheet, with two poked eye-holes. Cute, shy, never horror. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S47",
+      "scene": "11",
+      "tc": "4:34",
+      "tc_in": "00:04:34",
+      "tc_out": "00:04:42",
+      "dur": 8,
+      "size": "CU",
+      "title": "Most mysteries",
+      "camera": "Profile close of Bravo hero, visor reflecting the wheel lights, speaking toward Tango off-frame. Soft, earned wisdom, kid-show sincere, not a PSA talking-head.",
+      "action": "Bravo in green helmet delivering the moral in profile.",
+      "dialogue": "BRAVO: \"Most mysteries are just someone needing help. Or a snack.\"",
+      "lock_ids": [
+        "bravo_hero"
+      ],
+      "ref_ids": [
+        "bravo_hero"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Profile close of Bravo hero, visor reflecting the wheel lights, speaking toward Tango off-frame. Soft, earned wisdom, kid-show sincere, not a PSA talking-head. WHAT'S ON SCREEN: Bravo in green helmet delivering the moral in profile. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    },
+    {
+      "id": "S48",
+      "scene": "11",
+      "tc": "4:42",
+      "tc_in": "00:04:42",
+      "tc_out": "00:05:00",
+      "dur": 18,
+      "size": "EWS",
+      "title": "Wheel up, fade out",
+      "camera": "Extreme wide, camera BELOW the rising Ferris wheel looking up so we see gondola undersides and two tiny heroes. Pipi's visor draws a heart in teal light. Muffin is a speck below yelling. Hold, then fade.",
+      "action": "Ferris wheel climbing into gold-purple night, carnival alive again, Pixar ending frame.",
+      "dialogue": "MUFFIN (O.S.): \"I still need a snack!\"",
+      "lock_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "hoot",
+        "carnival",
+        "muffin"
+      ],
+      "ref_ids": [
+        "bravo_hero",
+        "tango_hero",
+        "pipi",
+        "muffin"
+      ],
+      "refs": [
+        "Characters/bravo_hero.png",
+        "Characters/close_up_bravo_hero.png",
+        "Characters/bravo_powerpose.png",
+        "Characters/tango_hero.png",
+        "Characters/tango_power_pose.png",
+        "Characters/pipi.png",
+        "Characters/pipi_close.jpg",
+        "Characters/pipi2.png",
+        "Characters/muffin_profile.jpg",
+        "Characters/muffin_2.jpg",
+        "Characters/muffin_churro.png"
+      ],
+      "prompt": "Still from a Pixar-style 3D animated children's feature film, The Widgeteers, cinematic live-action camera language, 35mm anamorphic movie frame, motivated practical lighting, volumetric fog, subsurface scattering on skin, rich autumn night carnival colors, shallow depth of field, Unreal Engine 5 / Octane quality. CRITICAL: this is a FILM FRAME, not a character poster, not a toy catalog, not a turnaround sheet, not a centered hero pose facing the camera. Characters look INTO the scene. Backs, napes, profiles, over-the-shoulder, three-quarter rear views, and foreground occlusion are correct and desired. Do not rotate anyone to face the lens just to look pretty. CAMERA: Extreme wide, camera BELOW the rising Ferris wheel looking up so we see gondola undersides and two tiny heroes. Pipi's visor draws a heart in teal light. Muffin is a speck below yelling. Hold, then fade. WHAT'S ON SCREEN: Ferris wheel climbing into gold-purple night, carnival alive again, Pixar ending frame. IDENTITY LOCKS: BRAVO hero suit: compact 10-year-old in a teal-blue superhero bodysuit with glowing cyan circuit lines, big cyan 'W' on the chest, glossy green helmet with a dorsal fin and ear wings, blue eye-mask, green shoulder pads, belt buckle letter 'B', dark boots. TANGO hero suit: compact 10-year-old in a purple-gold superhero bodysuit, gold 'W' on the chest, glossy bronze-gold helmet with fins, purple eye-mask, gold shoulder pads and bracers, belt buckle letter 'T', dark purple boots. PIPI: tiny spherical white robot drone, rounded helmet head, two ear-like fins, two small side propellers, dark visor with a glowing teal-cyan LED smiley face, one skinny white robot arm. Cute, hovering, Pixar. HOOT: a tiny fluffy white barn owl, oversized golden cartoon eyes, small peach beak, soft round body. Tangled in a too-big white magician's cape that reads as a baby ghost sheet, with two poked eye-holes. Cute, shy, never horror. Glow-A-Lot Carnival at night: cozy autumn amusement park, gold-purple Ferris wheel, bumper cars, popcorn cart, cotton-candy stall, calliope, fairy lights, painted booths, fallen leaves, gentle fog. Kid-safe, colorful, Pixar, not a haunted house from a horror movie. MUFFIN: chubby round Pixar burglar, very round pink face, small brown eyes close together, black eye-mask, tight black knit beanie, dark grey pinstripe shirt, black vest, short round body. Bumbling, hungry, lovable idiot. Not scary. REFERENCE IMAGES (match identity, costume, proportions exactly): Characters/bravo_hero.png, Characters/close_up_bravo_hero.png, Characters/bravo_powerpose.png, Characters/tango_hero.png, Characters/tango_power_pose.png, Characters/pipi.png, Characters/pipi_close.jpg, Characters/pipi2.png, Characters/muffin_profile.jpg, Characters/muffin_2.jpg, Characters/muffin_churro.png",
+      "negative": "poster, movie poster, character sheet, turnaround, model sheet, toy commercial, catalog pose, T-pose, A-pose, square to camera, looking at viewer, eye contact with camera, centered hero stance, white background, studio cyclorama, beauty-pack shot, symmetrical product lighting, watermark, text overlay, logo, split screen, collage, photoreal humans, horror gore, scary uncanny ghost, ugly distortion"
+    }
+  ],
+  "acts": [
+    {
+      "id": "I",
+      "name": "The Setup",
+      "tc": "0:00–1:58"
+    },
+    {
+      "id": "II",
+      "name": "The Hunt",
+      "tc": "1:58–3:32"
+    },
+    {
+      "id": "III",
+      "name": "The Unmasking",
+      "tc": "3:32–5:00"
+    }
+  ]
+}

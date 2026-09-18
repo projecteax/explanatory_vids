@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Widgeteers Studio — The Ghost of Glow-A-Lot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@500;600;700;800&family=Special+Elite&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/app.css?v=moon1" />
+</head>
+<body>
+  <div class="glow glow-a"></div>
+  <div class="glow glow-b"></div>
+
+  <header class="top">
+    <div class="brand">
+      <span class="mark">W</span>
+      <div>
+        <p class="kicker">The Widgeteers · Studio</p>
+        <h1 id="title">Loading…</h1>
+      </div>
+    </div>
+    <div class="top-meta" id="topMeta"></div>
+  </header>
+
+  <div class="episode-bar-wrap">
+    <p class="episode-label">Odcinek</p>
+    <div class="episode-bar" id="episodePicker"></div>
+  </div>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab on" data-view="overview">Przegląd</button>
+    <button class="tab" data-view="script">Scenariusz</button>
+    <button class="tab" data-view="shots">Ujęcia / prompty</button>
+    <button class="tab" data-view="bible">Postacie i lokacje</button>
+  </nav>
+
+  <main>
+    <section id="view-overview" class="view on"></section>
+    <section id="view-script" class="view"></section>
+    <section id="view-shots" class="view"></section>
+    <section id="view-bible" class="view"></section>
+  </main>
+
+  <div id="toast" hidden></div>
+  <script src="js/app.js?v=moon1"></script>
+</body>
+</html>
